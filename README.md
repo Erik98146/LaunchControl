@@ -1,5 +1,5 @@
 # LaunchControl
-A small and simple AMOLED control panel plus a web control panel for Jayco Terrain and Entegra Launch adventure vans with Lithionics/Victron components. Full RV-C integration.
+A small and simple AMOLED control panel plus a web control panel for Jayco Terrain and Entegra Launch adventure vans with Lithionics/Victron components. Full RV-C integration.  The implementation of this is a bit involved, but once setup it's been hands-off and very reliable.  It launches behind the scense whenever power is applied.
 
 ## Features
 - RV-C integration for status and control of all devices over the RV-C CAN bus network, duplicating (and improving) Firefly controls
