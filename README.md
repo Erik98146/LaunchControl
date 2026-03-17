@@ -52,15 +52,20 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 
 Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder
 
-## Usage
-### Web Control Panel
-   The web control panel can be accessed locally or over the internet if your Cerbo has web access
-   ### Internet Access (best option if online)
-   1. Connect to VRM from your device: https://vrm.victronenergy.com
-      - Navigate to Venus OS Large
-          - Launch the Node-Red Dashboard
-      - Optionally open the *Console* for remote screen access
-   Note: if you are receiveing an error about an expired token, refresh the Venus OS Large page and try again.
-   ### Local access
-   1. Connect your device to the Cerbo wifi access point noted above
-   2. Open a web browser to: https://[CERBO IP ADDRESS]:1881/dashboard/page1
+## Web Control Panel
+  The web control panel can be accessed locally or over the internet if your Cerbo has web access
+  ### Internet Access (best option if online)
+  1. Connect to VRM from your device: https://vrm.victronenergy.com
+     - Navigate to Venus OS Large
+         - Launch the Node-Red Dashboard
+     - Optionally open the *Console* for remote screen access
+  Note: if you are receiveing an error about an expired token, refresh the Venus OS Large page and try again.
+  ### Local access
+  1. Connect your device to the Cerbo wifi access point noted above
+  2. Open a web browser to: https://[CERBO IP ADDRESS]:1881/dashboard/page1
+
+## Cerbo Controls
+The new cerbo controls can be found in the top left corner of the Victron touchscreen.  Cureently the control allow the launching of device timers and the sleep timer.
+
+## Waveshare AMOLED Touchscreen
+
