@@ -50,4 +50,4 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 11. Send the compule command: ```esphome run launchcontrol.yaml```
 12. After it compiles, select the option to flash the device over the serial port com port
 
-Minor complilation errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to .esphome/build and delete the entire campervan32 folder
+Minor complilation errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder
