@@ -45,5 +45,7 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 6. Edit the secrets file and add the name of the cerbo access point and password noted earlier (or your router if thats your preference)
 7. Find the IP address of your cerbo and enter that as the mqtt server
 8. Save the secrets file
-9. Open a command prompt and navigate to the directory with the launchcontrol.yaml and secrets.yaml file
-10. 
+9. Connect the Waveshare AMOLED display with USB and use the device manager to find the com port
+10. Open a command prompt and navigate to the directory with the launchcontrol.yaml and secrets.yaml file
+11. Send the compule command: ```esphome run launchcontrol.yaml```
+12. After it compiles, 
