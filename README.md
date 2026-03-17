@@ -36,7 +36,7 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 10. From the top right menu, select *import* and import the flow
 11. Press Deploy
 
-### ESPHome
+### Waveshare AMOLED Touchscreen (optional)
 1. Install ESPHome on your computer using the manual method: https://esphome.io/guides/installing_esphome/
 2. Do NOT use the Python install manager.  Note the warning to NOT use the latest version (use 3.13.x): https://www.python.org/downloads/windows/
 3. install Git on your computer: https://git-scm.com/install/windows
