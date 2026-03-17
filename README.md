@@ -70,7 +70,7 @@ The new cerbo controls can be found in the top left corner of the Victron touchs
 ## Waveshare AMOLED Touchscreen
 If there are issues with this, check the settings screen to see if it has wifi and mqtt connectivity, which needs to be set in the secrets.yaml file prior to compiling. If the Node RED dashboard is working and there is connectivity, the device should be working.
 
-See this YouTuve video for use:
+See this YouTube video for use:
 
 ## Limitations
 - The Climate control fan settings are not yet developed
