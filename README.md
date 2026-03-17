@@ -13,7 +13,7 @@ A small and simple AMOLED control panel plus a web control panel for Jayco Terra
 
 The purpose of this project is to create a small remote control for the bed area that would allow at-a-glance status views and remote control of systems. I also wanted additional features such as a sleep timer to turn off devices automatically at night, and the option to power up some systems on a short timer (ie. turn on inverter for 1hr). Once setup, the system is very stable and reliable.
 
-The selected microcontroller with capacitive touch AMOLED display is ideal for this purpose and the display can automatically be set to a very low level that wont disturb sleep.
+The selected microcontroller with capacitive touch AMOLED display is ideal for this purpose and the display can automatically be set to a very low level at night that wont disturb sleep.
 
 The Node RED flow can be installed on the Cerbo without using the remote AMOLED display.  This will provide all other functionality and the web dashboard.
 
