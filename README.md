@@ -1,5 +1,5 @@
 # LaunchControl
-A small and simple AMOLED control panel plus a web control for Jayco Terrain and Entegra Launch adventure vans with Lithionics/Victron components.
+A small and simple AMOLED control panel plus a web control panel for Jayco Terrain and Entegra Launch adventure vans with Lithionics/Victron components.
 
 ## Features
 - Web control panel
