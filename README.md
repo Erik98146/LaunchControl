@@ -36,3 +36,14 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 10. From the top right menu, select import and import the flow
 11. Press Deploy
 
+### ESPHome
+1. Install ESPHome on your computer using the manual method: https://esphome.io/guides/installing_esphome/
+2. Do NOT use the Python install manager.  Note the warning to NOT use the latest version (use 3.13.x): https://www.python.org/downloads/windows/
+3. install Git on your computer: https://git-scm.com/install/windows
+4. Download the launchcontrol.yaml file from this repo
+5. Download the secrets.yaml file from this repo
+6. Edit the secrets file and add the name of the cerbo access point and password noted earlier (or your router if thats your preference)
+7. Find the IP address of your cerbo and enter that as the mqtt server
+8. Save the secrets file
+9. Open a command prompt and navigate to the directory with the launchcontrol.yaml and secrets.yaml file
+10. 
