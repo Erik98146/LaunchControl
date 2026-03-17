@@ -65,7 +65,7 @@ Minor complilation warnings and errors are ok, but if there is a failure you can
   2. Open a web browser to: https://[CERBO IP ADDRESS]:1881/dashboard/page1
 
 ## Cerbo Controls
-The new cerbo controls can be found in the top left corner of the Victron touchscreen.  Cureently the control allow the launching of device timers and the sleep timer.
+The new cerbo controls can be found in the top left corner of the Victron touchscreen.  Currently, the controls allow for launching device timers and the sleep timer.
 
 ## Waveshare AMOLED Touchscreen
 
