@@ -51,3 +51,13 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 13. After it compiles, select the option to upload using the COM port USB serial device
 
 Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder
+
+## Usage
+### Web Control Panel
+The web control panel can be accessed locally or over the internet if your Cerbo has web access
+### Internet Access
+1. Connect to VRM from your device: https://vrm.victronenergy.com
+   - Navigate to Venus OS Large
+    - Launch the Node-Red Dashboard
+   - Open the *Console* for remote screen access
+### Local access
