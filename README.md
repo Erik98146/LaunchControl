@@ -28,9 +28,9 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 2. Update the Cerbo firmware, and choose the "large" image (this will allow for Node RED).  Choose to use the new GUI if you haven't already.
 3. From Settings/Integrations, enable MQTT access.
 4. From Settings/Integrations, Enable Node RED.
-5. From Settings/Connectivity/WiFi enable Create access point. Create a password. The list of wifi networks now will include venus-xxxxxxxxxxxxx.  Do not select it, but make a note of it so you can connect your phone or PC (for when you don't have the Cerbo connected to a access point or internet) and for connecting the display later.
-6. Setup your VRM account for cloud access and remote control at: https://vrm.victronenergy.com
-7. Connect to your system over VRM.
+5. From Settings/Connectivity/WiFi enable Create access point. Make a password. The list of wifi networks now will include venus-xxxxxxxxxxxxx.  Do not select it, but make a note of it so you can connect your phone or PC (for when you don't have the Cerbo connected to a access point or internet) and for connecting the display later.
+6. Setup your free VRM account for cloud access and remote control at: https://vrm.victronenergy.com
+7. Connect to your system over VRM
 8. Choose Venus OS Large and launch Node-Red
 9. Download the LaunchControl-flow.json file from this github project
 10. From the top right menu, select import and import the flow
