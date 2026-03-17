@@ -11,11 +11,11 @@ A small and simple AMOLED control panel plus a web control panel for Jayco Terra
 - Sleep timer to turn off devices at a set time each night
 - Sets the clock on the Firefly display so it's always correct
 
-The purpose of this project is to create a small remote control for the bed area that would allow at-a-glance status views and remote control of systems. I also wanted additional features such as a sleep timer to turn off devices automatically at night, and the option to power up some systems on a short timer (ie. turn on inverter for 1hr).
+The purpose of this project is to create a small remote control for the bed area that would allow at-a-glance status views and remote control of systems. I also wanted additional features such as a sleep timer to turn off devices automatically at night, and the option to power up some systems on a short timer (ie. turn on inverter for 1hr). Once setup, the system is very stable and reliable.
 
 The selected microcontroller with capacitive touch AMOLED display is ideal for this purpose and the display can automatically be set to a very low level that wont disturb sleep.
 
-The Node RED flow can be installed oun the Cerbo without using the remote AMOLED display.  This will provide all other functionality.
+The Node RED flow can be installed on the Cerbo without using the remote AMOLED display.  This will provide all other functionality and the web dashboard.
 
 ## Technology Components
 - Victron Cerbo: The Cerbo acts as the technology hub and gateway for the project and is enabled with a MQTT sever and Node RED.  A Node RED flow is used as the RV-C to MQTT interface, provides the timer automations, provides the web panel, and provides the additional Cerbo on-screen controls. The MQTT server acts as the gateway to to AMOLED panel.  Both Node RED and the MQTT server are supported by Victron and will survive system updates.
@@ -28,6 +28,11 @@ The Node RED flow can be installed oun the Cerbo without using the remote AMOLED
 2. Update the Cerbo firmware, and choose the "large" image (this will allow for Node RED).  Choose to use the new GUI if you haven't already.
 3. From Settings/Integrations, enable MQTT access.
 4. From Settings/Integrations, Enable Node RED.
-5. From Settings/Connectivity/WiFi enable Create access point. Create a password. The list of wifi networks now will include venus-xxxxxxxxxxxxx.  Do not select, but make a note of it so you can connect your phone or PC (for when you don't have the Cerbo connected to a access point or internet) and for connecting the display later.
-6. Setup your VRM account for cloud access and remote control at https://vrm.victronenergy.com
-7. 
+5. From Settings/Connectivity/WiFi enable Create access point. Create a password. The list of wifi networks now will include venus-xxxxxxxxxxxxx.  Do not select it, but make a note of it so you can connect your phone or PC (for when you don't have the Cerbo connected to a access point or internet) and for connecting the display later.
+6. Setup your VRM account for cloud access and remote control at: https://vrm.victronenergy.com
+7. Connect to your system over VRM.
+8. Choose Venus OS Large and launch Node-Red
+9. Download the LaunchControl-flow.json file from this github project
+10. From the top right menu, select import and import the flow
+11. Press Deploy
+
