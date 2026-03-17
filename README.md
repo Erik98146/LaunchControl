@@ -58,6 +58,6 @@ The web control panel can be accessed locally or over the internet if your Cerbo
 ### Internet Access
 1. Connect to VRM from your device: https://vrm.victronenergy.com
    - Navigate to Venus OS Large
-    - Launch the Node-Red Dashboard
-   - Open the *Console* for remote screen access
+       - Launch the Node-Red Dashboard
+   - Optionally open the *Console* for remote screen access
 ### Local access
