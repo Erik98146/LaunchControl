@@ -30,7 +30,7 @@ Video:https://youtu.be/Vuok86__elU
 
 ## Deployment
 Navigate to the Realeases button to the right for the latest files
-- ```launchcontrol-flow.json``` This is the NodeRED flow to load onto the Cerbo
+- ```LaunchcControl-flow.json``` This is the NodeRED flow to load onto the Cerbo
 - ```launchcontrol.yaml``` This is the ESPHome file for the AMOLED display
 - ```secrets.yaml``` WiFi SSID, password and IP address of the Cerbo (edit this)
 
@@ -43,7 +43,7 @@ Navigate to the Realeases button to the right for the latest files
 6. Setup your free VRM account for cloud access and remote control at: https://vrm.victronenergy.com
 7. Connect to your system over VRM
 8. Choose Venus OS Large and launch Node-Red
-9. Download the **LaunchControl-flow.json** file from this github project
+9. Download ```LaunchcControl-flow.json`` file from releases
 10. From the top right Node RED menu, select *import* and import the flow
 11. Press *Deploy*
 
@@ -51,8 +51,8 @@ Navigate to the Realeases button to the right for the latest files
 1. Install ESPHome on your computer using the **manual** method: https://esphome.io/guides/installing_esphome/
 2. **Do NOT use the Python install manager**.  **Do NOT use the latest version**, it's not compatible (use 3.13.x): https://www.python.org/downloads/windows/
 3. install Git on your computer: https://git-scm.com/install/windows
-4. Download the **launchcontrol.yaml** file from this repo
-6. Download the **secrets.yaml** file from this repo
+4. Download ```launchcontrol.yaml``` file from releases
+6. Download ```Settings/Connectivity/WiFi``` file from releases
 7. Edit the secrets file and add the name of the cerbo wifi access point and password noted earlier (or your router if thats your preference)
 8. Find the IP address of your cerbo and enter that as the mqtt server
 9. Save the secrets file
