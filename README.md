@@ -29,6 +29,11 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 Video:https://youtu.be/Vuok86__elU
 
 ## Deployment
+Navigate to the Realeases button to the right for the latest files
+- ```launchcontrol-flow.json``` This is the NodeRED flow to load onto the Cerbo
+- ```launchcontrol.yaml``` This is the ESPHome file for the AMOLED display
+- ```secrets.yaml``` WiFi SSID, password and IP address of the Cerbo (edit this)
+
 ### Cerbo
 1. Connect the Cerbo to the internet
 2. Update the Cerbo firmware, and choose the "large" image (this will allow for Node RED).  Choose to use the new GUI if you haven't already.
