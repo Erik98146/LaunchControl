@@ -53,7 +53,7 @@ Video:https://youtu.be/Vuok86__elU
 9. Save the secrets file
 10. Connect the Waveshare AMOLED display with USB and use the device manager to find the com port
 11. Open a command prompt and navigate to the directory with the launchcontrol.yaml and secrets.yaml file
-12. Send the compule command: ```esphome run launchcontrol.yaml```
+12. Send the compile command: ```esphome run launchcontrol.yaml```
 13. After it compiles, select the option to upload using the COM port USB serial device
 
 Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder
