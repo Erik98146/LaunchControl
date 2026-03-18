@@ -68,9 +68,11 @@ Minor complilation warnings and errors are ok, but if there is a failure you can
   ### Internet Access (best option if online)
   1. Connect to VRM from your device: https://vrm.victronenergy.com
      - Navigate to Venus OS Large
-         - Launch the Node-Red Dashboard
+         - Launch the Node-Red Dashboard  
+       Note: if you are receiveing an error about an expired token, refresh the Venus OS Large page and try again.
+  
      - Optionally open the *Console* for remote screen access  
-  Note: if you are receiveing an error about an expired token, refresh the Venus OS Large page and try again.
+
   ### Local access
   1. Connect your device to the Cerbo wifi access point noted above
   2. Open a web browser to: https://[CERBO IP ADDRESS]:1881/dashboard/page1
