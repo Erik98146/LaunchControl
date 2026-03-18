@@ -51,15 +51,13 @@ Navigate to the Realeases button to the right for the latest files:
 1. Install ESPHome on your computer using the **manual** method: https://esphome.io/guides/installing_esphome/
 2. **Do NOT use the Python install manager**.  **Do NOT use the latest version**, it's not compatible (use 3.13.x): https://www.python.org/downloads/windows/
 3. install Git on your computer: https://git-scm.com/install/windows
-4. Download ```launchcontrol.yaml``` file from releases
-6. Download ```secrets.yaml``` file from releases
-7. Edit the secrets file and add the name of the cerbo wifi access point and password noted earlier (or your router if thats your preference)
-8. Find the IP address of your cerbo and enter that as the mqtt server
-9. Save the secrets file
-10. Connect the Waveshare AMOLED display with USB and use the device manager to find the com port
-11. Open a command prompt and navigate to the directory with the launchcontrol.yaml and secrets.yaml file
-12. Send the compile command: ```esphome run launchcontrol.yaml```
-13. After it compiles, select the option to upload using the COM port USB serial device
+4. Download all files from releases (on the right side) and place them in a common folder
+5. Edit the ```secrets.yaml``` file and add the name of the cerbo wifi access point and password noted earlier (or your router if thats your preference)
+6. Save the secrets file
+7. Connect the Waveshare AMOLED display with USB and use the device manager to find the com port
+8. Open a command prompt and navigate to the directory with the launchcontrol.yaml and secrets.yaml file
+9. Send the compile command: ```esphome run launchcontrol.yaml```
+10. After it compiles, select the option to upload using the COM port USB serial device
 
 Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder
 
