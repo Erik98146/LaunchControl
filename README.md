@@ -25,7 +25,8 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 -- Order the version with protective case: https://www.waveshare.com/esp32-s3-touch-amoled-1.75.htm?sku=31262
 
 ![Web Dashboard](https://github.com/Erik98146/LaunchControl/blob/main/images/WebDashboard-sm.jpg?raw=true)    ![Victron Screen](https://github.com/Erik98146/LaunchControl/blob/main/images/VictronScreen-sm.jpg?raw=true)     ![AMOLED](https://github.com/Erik98146/LaunchControl/blob/main/images/AMOLED-sm.jpg)   
-Video:(https://youtu.be/Vuok86__elU)
+
+Video:https://youtu.be/Vuok86__elU
 
 ## Deployment
 ### Cerbo
