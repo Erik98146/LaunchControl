@@ -89,7 +89,8 @@ See this YouTube video for use:  https://youtu.be/Vuok86__elU
 - The Climate control fan settings are not yet developed
 
 ## Roadmap
-- Using the built-in gyroscope to build a parking level assis function
+- Using the built-in gyroscope to build a parking level assist function
+- Create a driving version for mounting to the dashboard (battery, devices, alternator, climate, lights, parking level assist)
 
 
 
