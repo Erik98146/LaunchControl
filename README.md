@@ -85,7 +85,7 @@ If there are issues with this, check the settings screen to see if it has wifi a
 See this YouTube video for use:  https://youtu.be/Vuok86__elU
 
 ## Limitations
-- The Climate control fan settings are not yet developed
+- The Climate control fan settings can't be changed yet.
 
 ## Roadmap
 - Using the built-in gyroscope to build a parking level assist function
