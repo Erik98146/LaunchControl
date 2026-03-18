@@ -39,8 +39,8 @@ Video:https://youtu.be/Vuok86__elU
 7. Connect to your system over VRM
 8. Choose Venus OS Large and launch Node-Red
 9. Download the **LaunchControl-flow.json** file from this github project
-10. From the top right menu, select *import* and import the flow
-11. Press Deploy
+10. From the top right Node RED menu, select *import* and import the flow
+11. Press *Deploy*
 
 ### Waveshare AMOLED Touchscreen (optional)
 1. Install ESPHome on your computer using the **manual** method: https://esphome.io/guides/installing_esphome/
