@@ -52,7 +52,7 @@ Navigate to the Realeases button to the right for the latest files
 2. **Do NOT use the Python install manager**.  **Do NOT use the latest version**, it's not compatible (use 3.13.x): https://www.python.org/downloads/windows/
 3. install Git on your computer: https://git-scm.com/install/windows
 4. Download ```launchcontrol.yaml``` file from releases
-6. Download ```Settings/Connectivity/WiFi``` file from releases
+6. Download ```secrets.yaml``` file from releases
 7. Edit the secrets file and add the name of the cerbo wifi access point and password noted earlier (or your router if thats your preference)
 8. Find the IP address of your cerbo and enter that as the mqtt server
 9. Save the secrets file
