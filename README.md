@@ -24,8 +24,8 @@ The Node RED flow can be installed on the Cerbo without using the remote AMOLED 
 - Optional Waveshare esp32-s3 micro controller with 1.75" round AMOLED touch display: This fast and responsive controller has a beautiful and very bright AMOLED display. The firmware is written with ESPHome and then compiled with espressif, so it's fast and reliable. It connects to the Cerbo over wifi using the cerbo built-in access point.  This allows the system to function without any other hardware, yet still allows the cerbo to make a secondary wifi connection for internet if desired. It can be ordered with a case and may be powered with USB-C or through a 5v connection in the back for hard-wiring. The display has a night-time screen saver mode that provides a clock and at-a-glance status that emits very little light so that it isn't an annoyance when trying to sleep.  The display can also turn off at night.
 -- Order the version with protective case: https://www.waveshare.com/esp32-s3-touch-amoled-1.75.htm?sku=31262
 
-![Web Dashboard](https://github.com/Erik98146/LaunchControl/blob/main/images/WebDashboard-sm.jpg?raw=true)    ![Victron Screen](https://github.com/Erik98146/LaunchControl/blob/main/images/VictronScreen-sm.jpg?raw=true)     ![AMOLED](https://github.com/Erik98146/LaunchControl/blob/main/images/AMOLED-sm.jpg)   ![Video](https://youtu.be/Vuok86__elU)
-
+![Web Dashboard](https://github.com/Erik98146/LaunchControl/blob/main/images/WebDashboard-sm.jpg?raw=true)    ![Victron Screen](https://github.com/Erik98146/LaunchControl/blob/main/images/VictronScreen-sm.jpg?raw=true)     ![AMOLED](https://github.com/Erik98146/LaunchControl/blob/main/images/AMOLED-sm.jpg)   
+Video:(https://youtu.be/Vuok86__elU)
 
 ## Deployment
 ### Cerbo
