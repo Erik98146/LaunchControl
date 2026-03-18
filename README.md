@@ -4,7 +4,7 @@ A small and simple AMOLED control panel plus a web control panel for Jayco Terra
 ## Features
 - RV-C integration for status and control of all devices over the RV-C network, duplicating (and improving) Firefly controls
 - Web control panel for Firefly controls and additonal automations
-- New controls added to Victron screen
+- New automation controls added to Victron screen
 - Remote cloud control through VRM
 - Gorgeous mini AMOLED remote control panel for bed area remote control
 - Timers for inverter, starlink and water pump
