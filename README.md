@@ -48,7 +48,7 @@ Video:https://youtu.be/Vuok86__elU
 3. install Git on your computer: https://git-scm.com/install/windows
 4. Download the **launchcontrol.yaml** file from this repo
 6. Download the **secrets.yaml** file from this repo
-7. Edit the secrets file and add the name of the cerbo access point and password noted earlier (or your router if thats your preference)
+7. Edit the secrets file and add the name of the cerbo wifi access point and password noted earlier (or your router if thats your preference)
 8. Find the IP address of your cerbo and enter that as the mqtt server
 9. Save the secrets file
 10. Connect the Waveshare AMOLED display with USB and use the device manager to find the com port
