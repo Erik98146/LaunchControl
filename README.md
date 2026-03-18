@@ -15,6 +15,8 @@ The purpose of this project is to create a small remote control for the bed area
 
 The selected microcontroller with capacitive touch AMOLED display is ideal for this purpose and the display can automatically be set to a very low level at night that wont disturb sleep.
 
+I used Ruuvi tags which are small wireless thermometers to get the temperature inside and outside the van. They integrate directly with the Cerbo over Bluetooth.
+
 The Node RED flow can be installed on the Cerbo without using the remote AMOLED display.  This will provide all other functionality and the web dashboard.
 
 ## Technology Components
