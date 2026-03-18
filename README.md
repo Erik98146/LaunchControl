@@ -53,7 +53,7 @@ Navigate to the Releases button to the right for the latest files:
 2. **Do NOT use the Python install manager**.  **Do NOT use the latest version**, it's not compatible (use 3.13.x): https://www.python.org/downloads/windows/
 3. install Git on your computer: https://git-scm.com/install/windows
 4. Download all files from releases (on the right side) and place them in a common folder
-5. Edit the ```secrets.yaml``` file and add the name of the cerbo wifi access point and password noted earlier (or your router if thats your preference)
+5. Edit the ```secrets.yaml``` file and add the name of the cerbo wifi access point and password noted earlier (or your router if that's your preference)
 6. Save the secrets file
 7. Connect the Waveshare AMOLED display with USB and use the device manager to find the com port
 8. Open a command prompt and navigate to the directory with the launchcontrol.yaml and secrets.yaml file
@@ -74,7 +74,7 @@ Minor complilation warnings and errors are ok, but if there is a failure you can
 
   ### Local access
   1. Connect your device to the Cerbo wifi access point noted above
-  2. Open a web browser to: https://[CERBO IP ADDRESS]:1881/dashboard/page1
+  2. Open a web browser to: https://172.24.24.1:1881/dashboard/page1
 
 ## Cerbo Controls
 The new cerbo controls can be found in the top left corner of the Victron touchscreen.  Currently, the controls allow for launching device timers and the sleep timer.
