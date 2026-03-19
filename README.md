@@ -32,7 +32,6 @@ Video:https://youtu.be/Vuok86__elU
 Navigate to the Releases button to the right for the latest files:
 - ```LaunchcControl-flow.json``` This is the NodeRED flow to load onto the Cerbo
 - ```launchcontrol.yaml``` This is the ESPHome file for the AMOLED display
-- ```secrets.yaml``` WiFi SSID, password and IP address of the Cerbo (edit this)
 - ```van.png``` logo file
 
 ### Cerbo
