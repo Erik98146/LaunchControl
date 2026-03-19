@@ -58,7 +58,7 @@ Navigate to the Releases button to the right for the latest files:
 8. After it compiles, select the option to upload using the COM port USB serial device
 9. 1 minute after launch, it will start the setup portal hot spot. Connect to SSID LaunchControl-Config to setup the wifi connection.
 
-Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder
+Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder and try the compile command again.
 
 ## Usage
 
