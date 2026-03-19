@@ -62,7 +62,9 @@ Navigate to the Releases button to the right for the latest files:
 
 Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder
 
-## Web Control Panel
+## Usage
+
+### Web Control Panel
   The web control panel can be accessed locally or over the internet if your Cerbo has web access
   ### Internet Access (best option if online)
   1. Connect to VRM from your device: https://vrm.victronenergy.com
@@ -76,10 +78,10 @@ Minor complilation warnings and errors are ok, but if there is a failure you can
   1. Connect your device to the Cerbo wifi access point noted above
   2. Open a web browser to: https://172.24.24.1:1881/dashboard/page1
 
-## Cerbo Controls
+### Cerbo Controls
 The new cerbo controls can be found in the top left corner of the Victron touchscreen.  Currently, the controls allow for launching device timers and the sleep timer.
 
-## Waveshare AMOLED Touchscreen
+### Waveshare AMOLED Touchscreen
 If there are issues with this, check the settings screen to see if it has wifi and mqtt connectivity, which needs to be set in the secrets.yaml file prior to compiling. If the Node RED dashboard is working and there is connectivity, the device should be working.
 
 See this YouTube video for use:  https://youtu.be/Vuok86__elU
