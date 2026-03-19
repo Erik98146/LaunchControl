@@ -12,10 +12,10 @@
 ## dev
 
 - Removed secrets file
-- Added wifi config (after 1 minute of no wifi connection, a wifi config hotspot will be created. connect to ```LaunchControl-Setup``` over wifi and select ssid of Cerbo)
-- Press and hold right hardware button to enter wifi config hotspot
-- Added settings menu button to enter wifi config hotspot
-- Added boot screen connection status
+- Added wifi config (after 1 minute of no WiFi connection, a WiFi config hotspot will be created. connect to ```LaunchControl-Setup``` over wifi and select ssid of Cerbo)
+- Press and hold right hardware button to enter WiFi config hotspot
+- Added settings menu button to enter WiFi config hotspot
+- Added boot screen connection status and button to launch WiFi config hotspot
 - Hard coded Cebo IP address of 172.24.24.1 for mqtt server
 - Added mqtt ip to status
 - Fixed Firefly device sync
