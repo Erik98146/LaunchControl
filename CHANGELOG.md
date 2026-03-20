@@ -1,13 +1,8 @@
 # Release Change Log  
-  
-## 0.69  
-  
-- Initial release
-  
-## 0.70  
-  
-- Added boot screen  
-- 3 sec press of right hardware button turns off screen  
+
+## 0.86
+- Fixed screen rotation control
+- Added Cerbo IP under MQTT status
 
 ## 0.84
 
@@ -17,6 +12,11 @@
 - Added mqtt ip to status screen
 - Fixed Node RED <-> Firefly device sync
 
-## 0.86
-- Fixed screen rotation control
-- Added Cerbo IP under MQTT status
+## 0.70  
+  
+- Added boot screen  
+- 3 sec press of right hardware button turns off screen  
+
+## 0.69  
+  
+- Initial release
