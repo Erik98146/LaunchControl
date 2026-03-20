@@ -43,7 +43,7 @@ Navigate to the Releases button to the right for the latest files:
 6. Setup your free VRM account for cloud access and remote control at: https://vrm.victronenergy.com
 7. Connect to your system over VRM
 8. Choose Venus OS Large and launch Node-Red
-9. Download ```LaunchcControl-flow-xx.json``` file from releases
+9. Download ```LaunchcControl-flow.json``` file from releases
 10. From the top right Node RED menu, select *import* and import the flow
 11. Press *Deploy*
 
