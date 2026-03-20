@@ -3,7 +3,7 @@
 ## 0.86
 - Fixed screen rotation control
 - Added Cerbo IP under MQTT status
-- Improved Node RED <-> Firefly sync
+- Improved Node RED <-> Firefly sync **(Updated Node RED flow)**
 
 ## 0.84
 
