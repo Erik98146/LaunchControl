@@ -58,7 +58,7 @@ Note: **Check the release notes, most updates do not require updating the Node R
 6. Open a command prompt and navigate to the directory with the downloaded files
 7. Send the compile command: ```esphome run launchcontrol.yaml```
 8. After it compiles, select the option to upload using the COM port USB serial device
-9. Move to the van or withing range of the Cerbo wifi. Connect the display to USB power.  1 minute after launch, it will start the setup portal hot spot. Use your phnone and connect to SSID ```LaunchControl-Config``` and select venus-xxxxxx from the list of WiFi networks available. Enter the password you setup previously and save. (this will connect the wifi of the display to the Cerbo and save the settings)
+9. Move to the van or withing range of the Cerbo wifi. Connect the display to USB power.  1 minute after launch, it will start the setup portal hot spot. Use your phnone and connect to SSID ```LaunchControl-Config``` and select venus-xxxxxx from the list of WiFi networks available. Enter the password you setup previously on the Cerbo and save. (this will connect the wifi of the display to the Cerbo and save the settings)
 
 Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder and try the compile command again.
 
