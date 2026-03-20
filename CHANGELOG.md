@@ -10,7 +10,7 @@
 - Added wifi config (after 1 minute of no WiFi connection, a WiFi config hotspot will be created. connect to ```LaunchControl-Setup``` over wifi and select ssid of Cerbo)
 - Hard coded Cebo IP address of 172.24.24.1 for mqtt server
 - Added mqtt ip to status screen
-- Fixed Node RED <-> Firefly device sync
+- Fixed Node RED <-> Firefly device sync **(updated Node RED flow)**
 
 ## 0.70  
   
