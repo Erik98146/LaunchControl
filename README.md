@@ -47,7 +47,7 @@ Navigate to the Releases button to the right for the latest files:
 10. From the top right Node RED menu, select *import* and import the flow
 11. Press *Deploy*
 
-Note: If you are updating the Node RED flow from a previous version of LaunchControl, be sure to delete the old flow from within Node RED **AFETR** adding the new flow by right clicking on the old flow nape at the top, selecting *Delete* and then clicking *Deploy*. *Check the release notes, most updated releases do not require updating the Node RED flow.*
+Note: **Check the release notes, most updates do not require updating the Node RED flow.**  If you are updating the Node RED flow from a previous version of LaunchControl, be sure to delete the old flow from within Node RED **AFETR** adding the new flow by right clicking on the old flow nape at the top, selecting *Delete* and then clicking *Deploy*. 
 
 ### Waveshare AMOLED Touchscreen (optional)
 1. Install ESPHome on your computer using the **manual** method: https://esphome.io/guides/installing_esphome/
