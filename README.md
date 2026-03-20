@@ -82,7 +82,7 @@ Minor complilation warnings and errors are ok, but if there is a failure you can
 The new cerbo controls can be found in the top left corner of the Victron touchscreen.  Currently, the controls allow for launching device timers and the sleep timer.
 
 ### Waveshare AMOLED Touchscreen
-If there are issues with this, check the settings screen to see if it has wifi and mqtt connectivity, which needs to be set in the secrets.yaml file prior to compiling. If the Node RED dashboard is working and there is connectivity, the device should be working.
+If there are issues with this, check the settings screen to see if it has wifi and mqtt connectivity. If the Node RED dashboard is working and there is connectivity, the device should be working.
 
 See this YouTube video for use:  https://youtu.be/Vuok86__elU
 
