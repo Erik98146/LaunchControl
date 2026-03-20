@@ -16,3 +16,7 @@
 - Hard coded Cebo IP address of 172.24.24.1 for mqtt server
 - Added mqtt ip to status screen
 - Fixed Node RED <-> Firefly device sync
+
+## 0.86
+- Fixed screen rotation control
+- Added Cerbo IP under MQTT status
