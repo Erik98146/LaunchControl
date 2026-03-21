@@ -87,9 +87,11 @@ If there are issues with this, check the settings screen to see if it has wifi a
 See this YouTube video for use:  https://youtu.be/Vuok86__elU
 
 ## Limitations
-- The Climate control fan settings can't be changed yet.
+- Only climate temperature setting is currently controlled.
 
 ## Roadmap
+- Finish AC controls
+- Add screen dimming/saver timeout options
 - Using the built-in gyroscope to build a parking level assist function
 - Create a driving version for mounting to the dashboard (battery, devices, alternator, climate, lights, parking level assist)
 
