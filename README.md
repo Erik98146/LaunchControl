@@ -40,23 +40,23 @@ Navigate to the Releases button to the right for the latest files:
 3. From ```Settings/Integrations``` *enable MQTT access*.
 4. From ```Settings/Integrations``` *Enable Node RED*.
 5. From ```Settings/Connectivity/WiFi``` enable *Create access point*. Make a password. The list of wifi networks now will include venus-xxxxxxxxxxxxx.  Do not select it, but make a note of it so you can connect your phone or PC (for when you don't have the Cerbo connected to a access point or internet) and for connecting the display later.
-6. Setup your free VRM account for cloud access and remote control at: https://vrm.victronenergy.com
-7. Connect to your system over VRM
-8. Choose Venus OS Large and launch Node-Red
+6. Setup your free VRM account for cloud access and remote control and link it to your Cerbo at: https://vrm.victronenergy.com
+7. Connect to your system over VRM via the web browser link in the previous step
+8. Choose Venus OS Large from the VRM web menu and launch Node-Red
 9. Download ```LaunchcControl-flow.json``` file from releases
 10. From the top right Node RED menu, select *import* and import the flow
 11. Press *Deploy*
 
-Note: **Check the release notes, most updates do not require updating the Node RED flow.**  If you are updating the Node RED flow from a previous version of LaunchControl, be sure to delete the old flow from within Node RED **AFETR** adding the new flow by right clicking on the old flow at the top, selecting *Delete* and then clicking *Deploy*. 
+Note: **Check the release notes, most updates do not require updating the Node RED flow.**  If you are updating the Node RED flow from a previous version of LaunchControl, be sure to delete the old flow from within Node RED **AFTER** adding the new flow by right clicking on the old flow at the top, selecting *Delete* and then clicking *Deploy*. 
 
 ### Waveshare AMOLED Touchscreen (optional)
 1. Install ESPHome on your computer using the **manual** method: https://esphome.io/guides/installing_esphome/
 2. **Do NOT use the Python install manager**.  **Do NOT use the latest version**, it's not compatible (use 3.13.x): https://www.python.org/downloads/windows/
 3. install Git on your computer: https://git-scm.com/install/windows
 4. Download all files from releases (on the right side) and place them in a common folder
-5. Connect the Waveshare AMOLED display with USB
+5. Connect the Waveshare AMOLED display to your computer with USB
 6. Open a command prompt and navigate to the directory with the downloaded files
-7. Send the compile command: ```esphome run launchcontrol.yaml```
+7. Send the compile command: ```esphome run launchcontrol.yaml``` (see note below regarding compile errors)
 8. After it compiles, select the option to upload using the COM port USB serial device
 9. Move to the van or withing range of the Cerbo wifi. Connect the display to USB power.  1 minute after launch, it will start the setup portal hot spot. Use your phnone and connect to SSID ```LaunchControl-Config``` and select venus-xxxxxx from the list of WiFi networks available. Enter the password you setup previously on the Cerbo and save (this will connect the wifi of the display to the Cerbo and save the settings). The device should launch and become functional in a moment.
 
@@ -76,12 +76,12 @@ Minor complilation warnings and errors are ok, but if there is a failure you can
   
      - Optionally open the *Console* for remote screen access  
 
-  ### Local access
+  ### Local access (no internet or access point installed)
   1. Connect your device to the Cerbo wifi access point noted above
   2. Open a web browser to: https://172.24.24.1:1881/dashboard/page1
 
 ### Cerbo Controls
-The new cerbo controls can be found in the top left corner of the Victron touchscreen.  Currently, the controls allow for launching device timers and the sleep timer.
+The new cerbo controls can be found in the top left corner of the Victron touchscreen.  Currently, the controls allow for launching device timers and the sleep timer.  The sleep timer defaults to turning off the inverter, water pump, and starlink at 2am, so this can be enabled without any extra hardware or effort.
 
 ### Waveshare AMOLED Touchscreen
 If there are issues with this, check the settings screen to see if it has wifi and mqtt connectivity. If the Node RED dashboard is working and there is connectivity, the device should be working.
