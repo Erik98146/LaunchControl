@@ -1,0 +1,4944 @@
+[
+    {
+        "id": "e9027e9f3d51a6a0",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b5acc41bf366f1ab",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Lighting Masters",
+        "style": {
+            "label": true,
+            "fill": "#bfdbef",
+            "color": "#000000"
+        },
+        "nodes": [
+            "309ae67d707017e2",
+            "ce9f064dbb5d2133",
+            "acd8d747c281bd76",
+            "8e1ff8ed19848082",
+            "33dcba19499b5b7e",
+            "63cb4f705af6ebc8",
+            "833316af5d2cfd80",
+            "a80270a1b0bca5dc",
+            "fc8f0e32483e1628",
+            "74a4b1c4db7b6062"
+        ],
+        "x": 854,
+        "y": 1699,
+        "w": 372,
+        "h": 262
+    },
+    {
+        "id": "2004681aec0fceee",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Battery",
+        "style": {
+            "label": true,
+            "fill": "#ffffbf",
+            "color": "#000000"
+        },
+        "nodes": [
+            "52cc55c55024e602",
+            "01f5231b52125625",
+            "8e42651470fc04e5",
+            "75834a417067e7b4",
+            "f30c322124b2d7eb",
+            "c060d8ec41db5c2e",
+            "c31bfc1c413f6190",
+            "ce3f17e2274358e2"
+        ],
+        "x": 234,
+        "y": 59,
+        "w": 592,
+        "h": 222
+    },
+    {
+        "id": "e2d965e6798ce00f",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Sleep Timer",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf",
+            "color": "#000000"
+        },
+        "nodes": [
+            "9f4856e98428fefd",
+            "aa2302af3da419cc",
+            "4d7926475434bbfb",
+            "205c0222aa6afc37",
+            "2a82d747e49e0434",
+            "d5d49f33157f64ae",
+            "97063881164fa92e",
+            "5ee09ba094e9a68c",
+            "af6addbec88843a0",
+            "9780f72176c0f797",
+            "7ce7920445d71f8f",
+            "5a9683e07a0f4784",
+            "86f6d87256810c06",
+            "469e711453f6ba66",
+            "891d3df20cd8d423",
+            "627baca63d345acd",
+            "452cc09b72632904",
+            "ba8484f21f038618",
+            "544e02bcfb6ca919",
+            "a4f2fe33cb90a0b7",
+            "ff67c55260503dc7",
+            "01df0ce2d3585876",
+            "8e94659797afde97",
+            "de1cbb39928336cb",
+            "f21ca0c4dc2068cd"
+        ],
+        "x": 234,
+        "y": 1699,
+        "w": 592,
+        "h": 482
+    },
+    {
+        "id": "a8ba8a12146ec056",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Example G12 control",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c02f2156085e53eb",
+            "243d5c3e11398dfc",
+            "93f9eea1cbbc5531"
+        ],
+        "x": 474,
+        "y": 3159,
+        "w": 572,
+        "h": 82
+    },
+    {
+        "id": "bfaaa29d55d62a1f",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Lights",
+        "style": {
+            "label": true,
+            "fill": "#bfdbef",
+            "color": "#000000"
+        },
+        "nodes": [
+            "d9aaec65758e4762",
+            "36ada8f29ad9a1f6",
+            "1707e3382f0d028a",
+            "61d3975ed29e57ed",
+            "abc4d3fbbd02a396",
+            "52228d2fdeef5c9f",
+            "842104f0957a257e",
+            "db298eea20931e65"
+        ],
+        "x": 228,
+        "y": 313,
+        "w": 1004,
+        "h": 1354
+    },
+    {
+        "id": "5ded4d2c6ed65249",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Tanks",
+        "style": {
+            "label": true,
+            "fill": "#d1d1d1",
+            "color": "#000000"
+        },
+        "nodes": [
+            "ac8d1072a6f2b806",
+            "82bb7a7f59245699",
+            "7e328bc03f66b328",
+            "174b07f3de5937ef"
+        ],
+        "x": 854,
+        "y": 1979,
+        "w": 452,
+        "h": 142
+    },
+    {
+        "id": "c2d8037172827e51",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Switches",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "15ff72457760cf01",
+            "19e1866993e81c47",
+            "d8258636adb41cec",
+            "7b4c8b9f45055a16",
+            "b8004f65030b9f89",
+            "03f09f5313cd2ad9",
+            "2d8be6eb9d6ede44",
+            "b0551e3e2f144427",
+            "1656932d9c383167",
+            "d688895ec1b46b44",
+            "7ea63524133411cf"
+        ],
+        "x": 234,
+        "y": 2219,
+        "w": 972,
+        "h": 262
+    },
+    {
+        "id": "d9aaec65758e4762",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "bfaaa29d55d62a1f",
+        "name": "Bench Light",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b8342751af38c5ed",
+            "e74d988cc4b90cdb",
+            "b15d2befe196a2fe",
+            "464d88262e133cd4",
+            "44320f63ce91e421",
+            "39dfbff14cbc87b8",
+            "277ca110b9460d16"
+        ],
+        "env": [
+            {
+                "name": "INSTANCE",
+                "value": "35",
+                "type": "num"
+            },
+            {
+                "name": "NAME",
+                "value": "Bench",
+                "type": "str"
+            }
+        ],
+        "x": 254,
+        "y": 339,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "36ada8f29ad9a1f6",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "bfaaa29d55d62a1f",
+        "name": "Bunk Accent Light",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "40ad162c682e7129",
+            "3ff2b20ada4b24dc",
+            "4ceb17f52e197241",
+            "8bb2e9278b46e881",
+            "a615b64f4efcd83d",
+            "8b9a737730677df0",
+            "706cb8ae4758ff97"
+        ],
+        "env": [
+            {
+                "name": "INSTANCE",
+                "value": "34",
+                "type": "num"
+            },
+            {
+                "name": "NAME",
+                "value": "Bunk",
+                "type": "str"
+            }
+        ],
+        "x": 254,
+        "y": 499,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "1707e3382f0d028a",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "bfaaa29d55d62a1f",
+        "name": "Kitchen Light",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c52503e1ba97734c",
+            "d97d313185bc0f61",
+            "3ba8fbe1cd02279b",
+            "874e0ade3e65711a",
+            "a9e39a9037c6fa04",
+            "73fc575b2821be50",
+            "0c7a539c8fe9fa48"
+        ],
+        "env": [
+            {
+                "name": "INSTANCE",
+                "value": "22",
+                "type": "num"
+            },
+            {
+                "name": "NAME",
+                "value": "Kitchen",
+                "type": "str"
+            }
+        ],
+        "x": 254,
+        "y": 659,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "61d3975ed29e57ed",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "bfaaa29d55d62a1f",
+        "name": "Main Lights",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7c2e56c880ac42c2",
+            "c9b4e5836ab0131b",
+            "221f16872f74c075",
+            "1bf1ad2ab4709153",
+            "7835b6947a238f6b",
+            "c789f33c6af8b6f9",
+            "d34e1d6bed9dda2e"
+        ],
+        "env": [
+            {
+                "name": "INSTANCE",
+                "value": "32",
+                "type": "num"
+            },
+            {
+                "name": "NAME",
+                "value": "Main",
+                "type": "str"
+            }
+        ],
+        "x": 254,
+        "y": 819,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "abc4d3fbbd02a396",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "bfaaa29d55d62a1f",
+        "name": "Bedroom Lights",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6311f0eea94a5b33",
+            "6c4efa88ba67f2db",
+            "ad321d4a4d452f67",
+            "6a7a5963b07cdd54",
+            "78b4c60ea4b2c448",
+            "92b94b19bb5de401",
+            "c16500ee21dd62f5"
+        ],
+        "env": [
+            {
+                "name": "INSTANCE",
+                "value": "24",
+                "type": "num"
+            },
+            {
+                "name": "NAME",
+                "value": "Bedroom",
+                "type": "str"
+            }
+        ],
+        "x": 254,
+        "y": 979,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "52228d2fdeef5c9f",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "bfaaa29d55d62a1f",
+        "name": "Cargo Lights",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1c35d25f02ad4b72",
+            "e88bfe1fec122146",
+            "0554f681b9412c91",
+            "42b0e471cae98fac",
+            "b6ba7f09227d42e0",
+            "6a80307096b16699",
+            "d157e0d860904d7d"
+        ],
+        "env": [
+            {
+                "name": "INSTANCE",
+                "value": "25",
+                "type": "num"
+            },
+            {
+                "name": "NAME",
+                "value": "Cargo",
+                "type": "str"
+            }
+        ],
+        "x": 254,
+        "y": 1139,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "842104f0957a257e",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "bfaaa29d55d62a1f",
+        "name": "Step Lights",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "081dbb013b330202",
+            "b882ff1a67329c38",
+            "df88e9119126f906",
+            "d5ab3ed1ec52985c",
+            "0187415f5d1297af",
+            "6453e9d978bb2ce6",
+            "b29b428243066b39"
+        ],
+        "env": [
+            {
+                "name": "INSTANCE",
+                "value": "23",
+                "type": "num"
+            },
+            {
+                "name": "NAME",
+                "value": "Step",
+                "type": "str"
+            }
+        ],
+        "x": 254,
+        "y": 1339,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "db298eea20931e65",
+        "type": "group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "bfaaa29d55d62a1f",
+        "name": "Awning Lights",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c4fafc0538ae755e",
+            "41c26e1ea891cb4e",
+            "aaa2ca6cd3a4ba52",
+            "9bdd7fe258a98a0a",
+            "e315a5fababdb6ef",
+            "c40cc5763e8b6309",
+            "92124f31ccc5a61a"
+        ],
+        "env": [
+            {
+                "name": "INSTANCE",
+                "value": "21",
+                "type": "num"
+            },
+            {
+                "name": "NAME",
+                "value": "Awning",
+                "type": "str"
+            }
+        ],
+        "x": 254,
+        "y": 1499,
+        "w": 952,
+        "h": 142
+    },
+    {
+        "id": "1c00670f22ec1bcb",
+        "type": "socketcan-out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "socketcan-out",
+        "config": "6321f4cc29f9169d",
+        "x": 70,
+        "y": 1020,
+        "wires": [
+            [
+                "4140be9cef9922f2",
+                "1a62b52c6cc21287"
+            ]
+        ]
+    },
+    {
+        "id": "b8342751af38c5ed",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "d9aaec65758e4762",
+        "name": "Map State → Dimming",
+        "func": "let level = msg.payload.level;\nif (level === undefined) return null;\n\n// Convert to percent for text widget\nlet percent = Math.round((level / 200) * 100);\nlet textMsg = { payload: percent + \"%\" };\n\n// Send scaled fadeRate to slider widget\nlet sliderMsg = { payload: percent };\n\nreturn [sliderMsg, textMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 440,
+        "wires": [
+            [
+                "b15d2befe196a2fe"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e74d988cc4b90cdb",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "d9aaec65758e4762",
+        "name": "Decode Light Status",
+        "func": "let frame = msg.payload;\nlet dgn = (frame.canid >> 8) & 0x3FFFF;\n\n// Only care about DIMMER_COMMAND_2 (0x1FEDB)\nif (dgn !== 0x1FEDA) return null;\n\n// Get the group/subflow variable\nlet inst = env.get(\"INSTANCE\");   // comes from subflow/group environment config\n\nlet instance = frame.data[0];\nif (instance !== inst) return null;  // filter by group variable\n\nlet level = frame.data[2];\nmsg.payload = { level };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 440,
+        "wires": [
+            [
+                "b8342751af38c5ed",
+                "39dfbff14cbc87b8"
+            ]
+        ]
+    },
+    {
+        "id": "b15d2befe196a2fe",
+        "type": "ui-slider",
+        "z": "e9027e9f3d51a6a0",
+        "g": "d9aaec65758e4762",
+        "group": "2f999e9de6dd367b",
+        "name": "Bench",
+        "label": "",
+        "tooltip": "",
+        "order": 7,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "false",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 910,
+        "y": 440,
+        "wires": [
+            [
+                "464d88262e133cd4"
+            ]
+        ]
+    },
+    {
+        "id": "464d88262e133cd4",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "d9aaec65758e4762",
+        "name": "Format Slider",
+        "func": "// Input: msg.payload = 0–100 (percent brightness)\n// Output: msg.payload = full command object with fadeRate scaled 0–251\n\nlet percent = Number(msg.payload);\n\n// Clamp to valid range\nif (percent < 0) percent = 0;\nif (percent > 100) percent = 100;\n\n// Scale percent (0–100) to desiredLevel (0–200)\nlet desiredLevel = Math.round((percent / 100) * 200);\n\nmsg.payload = {\n    command: \"DIMMER_COMMAND_2\",\n    desiredLevel: desiredLevel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 440,
+        "wires": [
+            [
+                "44320f63ce91e421"
+            ]
+        ]
+    },
+    {
+        "id": "44320f63ce91e421",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "d9aaec65758e4762",
+        "name": "Encode to rvc",
+        "func": "// Input: msg.payload = { desiredLevel }\n// Output: msg.payload = { canid, data, ext, rtr, dlc }\n\nlet inst = env.get(\"INSTANCE\");   // gets the group variable\n\nfunction buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,   // Example source address = 1; adjust if needed\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\n\n// Always DIMMER_COMMAND_2, DGN = 0x1FEDB, instance fixed at 35\nlet out = buildFrame(0x1FEDB, [\n    inst,                  // instance from variable\n    p.group || 0,        // group, if provided\n    p.desiredLevel || 0  // brightness level\n]);\n\nmsg.payload = out;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 380,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "2c01c3cc2a1a1bb2",
+        "type": "socketcan-in",
+        "z": "e9027e9f3d51a6a0",
+        "name": "socketcan-in",
+        "config": "6321f4cc29f9169d",
+        "x": 1370,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "39dfbff14cbc87b8",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "d9aaec65758e4762",
+        "name": "Map State → Switch Style",
+        "func": "let level = msg.payload.level;\n\n// Default OFF state\nlet state = false;   \n\n// Switch ON if level > 0\nif (level > 0) state = true;\n\n// Build update message for ui-switch\nmsg = {\n    payload: state,   // true/false drives the switch toggle\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "277ca110b9460d16"
+            ]
+        ]
+    },
+    {
+        "id": "277ca110b9460d16",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "d9aaec65758e4762",
+        "name": "Bench",
+        "label": "Bench",
+        "group": "2f999e9de6dd367b",
+        "order": 6,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "decouple": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "line",
+        "onvalue": "{\"command\":\"DIMMER_COMMAND_2\",\"desiredLevel\":251}",
+        "onvalueType": "json",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "orange",
+        "offvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "offvalueType": "json",
+        "officon": "lightbulb",
+        "offcolor": "grey",
+        "x": 910,
+        "y": 380,
+        "wires": [
+            [
+                "44320f63ce91e421"
+            ]
+        ]
+    },
+    {
+        "id": "40ad162c682e7129",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "36ada8f29ad9a1f6",
+        "name": "Map State → Dimming",
+        "func": "let level = msg.payload.level;\nif (level === undefined) return null;\n\n// Convert to percent for text widget\nlet percent = Math.round((level / 200) * 100);\nlet textMsg = { payload: percent + \"%\" };\n\n// Send scaled fadeRate to slider widget\nlet sliderMsg = { payload: percent };\n\nreturn [sliderMsg, textMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 600,
+        "wires": [
+            [
+                "4ceb17f52e197241"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3ff2b20ada4b24dc",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "36ada8f29ad9a1f6",
+        "name": "Decode Light Status",
+        "func": "let frame = msg.payload;\nlet dgn = (frame.canid >> 8) & 0x3FFFF;\n\n// Only care about DIMMER_COMMAND_2 (0x1FEDB)\nif (dgn !== 0x1FEDA) return null;\n\n// Get the group/subflow variable\nlet inst = env.get(\"INSTANCE\");   // comes from subflow/group environment config\n\nlet instance = frame.data[0];\nif (instance !== inst) return null;  // filter by group variable\n\nlet level = frame.data[2];\nmsg.payload = { level };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 600,
+        "wires": [
+            [
+                "40ad162c682e7129",
+                "8b9a737730677df0"
+            ]
+        ]
+    },
+    {
+        "id": "4ceb17f52e197241",
+        "type": "ui-slider",
+        "z": "e9027e9f3d51a6a0",
+        "g": "36ada8f29ad9a1f6",
+        "group": "2f999e9de6dd367b",
+        "name": "Bunk",
+        "label": "",
+        "tooltip": "",
+        "order": 11,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "false",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 910,
+        "y": 600,
+        "wires": [
+            [
+                "8bb2e9278b46e881"
+            ]
+        ]
+    },
+    {
+        "id": "8bb2e9278b46e881",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "36ada8f29ad9a1f6",
+        "name": "Format Slider",
+        "func": "// Input: msg.payload = 0–100 (percent brightness)\n// Output: msg.payload = full command object with fadeRate scaled 0–251\n\nlet percent = Number(msg.payload);\n\n// Clamp to valid range\nif (percent < 0) percent = 0;\nif (percent > 100) percent = 100;\n\n// Scale percent (0–100) to desiredLevel (0–251)\nlet desiredLevel = Math.round((percent / 100) * 200);\n\nmsg.payload = {\n    command: \"DIMMER_COMMAND_2\",\n    desiredLevel: desiredLevel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 600,
+        "wires": [
+            [
+                "a615b64f4efcd83d"
+            ]
+        ]
+    },
+    {
+        "id": "a615b64f4efcd83d",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "36ada8f29ad9a1f6",
+        "name": "Encode to rvc",
+        "func": "// Input: msg.payload = { desiredLevel }\n// Output: msg.payload = { canid, data, ext, rtr, dlc }\n\nlet inst = env.get(\"INSTANCE\");   // gets the group variable\n\nfunction buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,   // Example source address = 1; adjust if needed\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\n\n// Always DIMMER_COMMAND_2, DGN = 0x1FEDB, instance fixed at 35\nlet out = buildFrame(0x1FEDB, [\n    inst,                  // instance from variable\n    p.group || 0,        // group, if provided\n    p.desiredLevel || 0  // brightness level\n]);\n\nmsg.payload = out;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 540,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "8b9a737730677df0",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "36ada8f29ad9a1f6",
+        "name": "Map State → Switch Style",
+        "func": "let level = msg.payload.level;\n\n// Default OFF state\nlet state = false;   \n\n// Switch ON if level > 0\nif (level > 0) state = true;\n\n// Build update message for ui-switch\nmsg = {\n    payload: state,   // true/false drives the switch toggle\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 540,
+        "wires": [
+            [
+                "706cb8ae4758ff97"
+            ]
+        ]
+    },
+    {
+        "id": "c52503e1ba97734c",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "1707e3382f0d028a",
+        "name": "Map State → Dimming",
+        "func": "let level = msg.payload.level;\nif (level === undefined) return null;\n\n// Convert to percent for text widget\nlet percent = Math.round((level / 200) * 100);\nlet textMsg = { payload: percent + \"%\" };\n\n// Send scaled fadeRate to slider widget\nlet sliderMsg = { payload: percent };\n\nreturn [sliderMsg, textMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 760,
+        "wires": [
+            [
+                "3ba8fbe1cd02279b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d97d313185bc0f61",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "1707e3382f0d028a",
+        "name": "Decode Light Status",
+        "func": "let frame = msg.payload;\nlet dgn = (frame.canid >> 8) & 0x3FFFF;\n\n// Only care about DIMMER_COMMAND_2 (0x1FEDB)\nif (dgn !== 0x1FEDA) return null;\n\n// Get the group/subflow variable\nlet inst = env.get(\"INSTANCE\");   // comes from subflow/group environment config\n\nlet instance = frame.data[0];\nif (instance !== inst) return null;  // filter by group variable\n\nlet level = frame.data[2];\nmsg.payload = { level };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 760,
+        "wires": [
+            [
+                "c52503e1ba97734c",
+                "73fc575b2821be50"
+            ]
+        ]
+    },
+    {
+        "id": "3ba8fbe1cd02279b",
+        "type": "ui-slider",
+        "z": "e9027e9f3d51a6a0",
+        "g": "1707e3382f0d028a",
+        "group": "2f999e9de6dd367b",
+        "name": "Kitchen",
+        "label": "",
+        "tooltip": "",
+        "order": 9,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "false",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 920,
+        "y": 760,
+        "wires": [
+            [
+                "874e0ade3e65711a"
+            ]
+        ]
+    },
+    {
+        "id": "874e0ade3e65711a",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "1707e3382f0d028a",
+        "name": "Format Slider",
+        "func": "// Input: msg.payload = 0–100 (percent brightness)\n// Output: msg.payload = full command object with fadeRate scaled 0–251\n\nlet percent = Number(msg.payload);\n\n// Clamp to valid range\nif (percent < 0) percent = 0;\nif (percent > 100) percent = 100;\n\n// Scale percent (0–100) to desiredLevel (0–251)\nlet desiredLevel = Math.round((percent / 100) * 200);\n\nmsg.payload = {\n    command: \"DIMMER_COMMAND_2\",\n    desiredLevel: desiredLevel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 760,
+        "wires": [
+            [
+                "a9e39a9037c6fa04"
+            ]
+        ]
+    },
+    {
+        "id": "a9e39a9037c6fa04",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "1707e3382f0d028a",
+        "name": "Encode to rvc",
+        "func": "// Input: msg.payload = { desiredLevel }\n// Output: msg.payload = { canid, data, ext, rtr, dlc }\n\nlet inst = env.get(\"INSTANCE\");   // gets the group variable\n\nfunction buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,   // Example source address = 1; adjust if needed\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\n\n// Always DIMMER_COMMAND_2, DGN = 0x1FEDB, instance fixed at 35\nlet out = buildFrame(0x1FEDB, [\n    inst,                  // instance from variable\n    p.group || 0,        // group, if provided\n    p.desiredLevel || 0  // brightness level\n]);\n\nmsg.payload = out;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 700,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "73fc575b2821be50",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "1707e3382f0d028a",
+        "name": "Map State → Switch Style",
+        "func": "let level = msg.payload.level;\n\n// Default OFF state\nlet state = false;   \n\n// Switch ON if level > 0\nif (level > 0) state = true;\n\n// Build update message for ui-switch\nmsg = {\n    payload: state,   // true/false drives the switch toggle\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 700,
+        "wires": [
+            [
+                "0c7a539c8fe9fa48"
+            ]
+        ]
+    },
+    {
+        "id": "0c7a539c8fe9fa48",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "1707e3382f0d028a",
+        "name": "Kitchen",
+        "label": "Kitchen",
+        "group": "2f999e9de6dd367b",
+        "order": 8,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "decouple": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "line",
+        "onvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 251 }",
+        "onvalueType": "json",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "orange",
+        "offvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "offvalueType": "json",
+        "officon": "lightbulb",
+        "offcolor": "grey",
+        "x": 920,
+        "y": 700,
+        "wires": [
+            [
+                "a9e39a9037c6fa04"
+            ]
+        ]
+    },
+    {
+        "id": "7c2e56c880ac42c2",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "61d3975ed29e57ed",
+        "name": "Map State → Dimming",
+        "func": "let level = msg.payload.level;\nif (level === undefined) return null;\n\n// Convert to percent for text widget\nlet percent = Math.round((level / 200) * 100);\nlet textMsg = { payload: percent + \"%\" };\n\n// Send scaled fadeRate to slider widget\nlet sliderMsg = { payload: percent };\n\nreturn [sliderMsg, textMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 920,
+        "wires": [
+            [
+                "221f16872f74c075"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c9b4e5836ab0131b",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "61d3975ed29e57ed",
+        "name": "Decode Light Status",
+        "func": "let frame = msg.payload;\nlet dgn = (frame.canid >> 8) & 0x3FFFF;\n\n// Only care about DIMMER_COMMAND_2 (0x1FEDB)\nif (dgn !== 0x1FEDA) return null;\n\n// Get the group/subflow variable\nlet inst = env.get(\"INSTANCE\");   // comes from subflow/group environment config\n\nlet instance = frame.data[0];\nif (instance !== inst) return null;  // filter by group variable\n\nlet level = frame.data[2];\nmsg.payload = { level };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 920,
+        "wires": [
+            [
+                "7c2e56c880ac42c2",
+                "c789f33c6af8b6f9"
+            ]
+        ]
+    },
+    {
+        "id": "221f16872f74c075",
+        "type": "ui-slider",
+        "z": "e9027e9f3d51a6a0",
+        "g": "61d3975ed29e57ed",
+        "group": "2f999e9de6dd367b",
+        "name": "Main",
+        "label": "",
+        "tooltip": "",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "false",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 910,
+        "y": 920,
+        "wires": [
+            [
+                "1bf1ad2ab4709153"
+            ]
+        ]
+    },
+    {
+        "id": "1bf1ad2ab4709153",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "61d3975ed29e57ed",
+        "name": "Format Slider",
+        "func": "// Input: msg.payload = 0–100 (percent brightness)\n// Output: msg.payload = full command object with fadeRate scaled 0–251\n\nlet percent = Number(msg.payload);\n\n// Clamp to valid range\nif (percent < 0) percent = 0;\nif (percent > 100) percent = 100;\n\n// Scale percent (0–100) to desiredLevel (0–251)\nlet desiredLevel = Math.round((percent / 100) * 200);\n\nmsg.payload = {\n    command: \"DIMMER_COMMAND_2\",\n    desiredLevel: desiredLevel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 920,
+        "wires": [
+            [
+                "7835b6947a238f6b"
+            ]
+        ]
+    },
+    {
+        "id": "7835b6947a238f6b",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "61d3975ed29e57ed",
+        "name": "Encode to rvc",
+        "func": "// Input: msg.payload = { desiredLevel }\n// Output: msg.payload = { canid, data, ext, rtr, dlc }\n\nlet inst = env.get(\"INSTANCE\");   // gets the group variable\n\nfunction buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,   // Example source address = 1; adjust if needed\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\n\n// Always DIMMER_COMMAND_2, DGN = 0x1FEDB, instance fixed at 35\nlet out = buildFrame(0x1FEDB, [\n    inst,                  // instance from variable\n    p.group || 0,        // group, if provided\n    p.desiredLevel || 0  // brightness level\n]);\n\nmsg.payload = out;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 860,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "c789f33c6af8b6f9",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "61d3975ed29e57ed",
+        "name": "Map State → Switch Style",
+        "func": "let level = msg.payload.level;\n\n// Default OFF state\nlet state = false;   \n\n// Switch ON if level > 0\nif (level > 0) state = true;\n\n// Build update message for ui-switch\nmsg = {\n    payload: state,   // true/false drives the switch toggle\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 860,
+        "wires": [
+            [
+                "d34e1d6bed9dda2e"
+            ]
+        ]
+    },
+    {
+        "id": "d34e1d6bed9dda2e",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "61d3975ed29e57ed",
+        "name": "Main",
+        "label": "Main",
+        "group": "2f999e9de6dd367b",
+        "order": 4,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "decouple": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "line",
+        "onvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 251 }",
+        "onvalueType": "json",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "orange",
+        "offvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "offvalueType": "json",
+        "officon": "lightbulb",
+        "offcolor": "grey",
+        "x": 910,
+        "y": 860,
+        "wires": [
+            [
+                "7835b6947a238f6b"
+            ]
+        ]
+    },
+    {
+        "id": "6311f0eea94a5b33",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "abc4d3fbbd02a396",
+        "name": "Map State → Dimming",
+        "func": "let level = msg.payload.level;\nif (level === undefined) return null;\n\n// Convert to percent for text widget\nlet percent = Math.round((level / 200) * 100);\nlet textMsg = { payload: percent + \"%\" };\n\n// Send scaled fadeRate to slider widget\nlet sliderMsg = { payload: percent };\n\nreturn [sliderMsg, textMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1080,
+        "wires": [
+            [
+                "ad321d4a4d452f67"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "6c4efa88ba67f2db",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "abc4d3fbbd02a396",
+        "name": "Decode Light Status",
+        "func": "let frame = msg.payload;\nlet dgn = (frame.canid >> 8) & 0x3FFFF;\n\n// Only care about DIMMER_COMMAND_2 (0x1FEDB)\nif (dgn !== 0x1FEDA) return null;\n\n// Get the group/subflow variable\nlet inst = env.get(\"INSTANCE\");   // comes from subflow/group environment config\n\nlet instance = frame.data[0];\nif (instance !== inst) return null;  // filter by group variable\n\nlet level = frame.data[2];\nmsg.payload = { level };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1080,
+        "wires": [
+            [
+                "6311f0eea94a5b33",
+                "92b94b19bb5de401"
+            ]
+        ]
+    },
+    {
+        "id": "ad321d4a4d452f67",
+        "type": "ui-slider",
+        "z": "e9027e9f3d51a6a0",
+        "g": "abc4d3fbbd02a396",
+        "group": "2f999e9de6dd367b",
+        "name": "Bedroom",
+        "label": "",
+        "tooltip": "",
+        "order": 13,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "false",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 920,
+        "y": 1080,
+        "wires": [
+            [
+                "6a7a5963b07cdd54"
+            ]
+        ]
+    },
+    {
+        "id": "6a7a5963b07cdd54",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "abc4d3fbbd02a396",
+        "name": "Format Slider",
+        "func": "// Input: msg.payload = 0–100 (percent brightness)\n// Output: msg.payload = full command object with fadeRate scaled 0–251\n\nlet percent = Number(msg.payload);\n\n// Clamp to valid range\nif (percent < 0) percent = 0;\nif (percent > 100) percent = 100;\n\n// Scale percent (0–100) to desiredLevel (0–251)\nlet desiredLevel = Math.round((percent / 100) * 200);\n\nmsg.payload = {\n    command: \"DIMMER_COMMAND_2\",\n    desiredLevel: desiredLevel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1080,
+        "wires": [
+            [
+                "78b4c60ea4b2c448"
+            ]
+        ]
+    },
+    {
+        "id": "78b4c60ea4b2c448",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "abc4d3fbbd02a396",
+        "name": "Encode to rvc",
+        "func": "// Input: msg.payload = { desiredLevel }\n// Output: msg.payload = { canid, data, ext, rtr, dlc }\n\nlet inst = env.get(\"INSTANCE\");   // gets the group variable\n\nfunction buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,   // Example source address = 1; adjust if needed\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\n\n// Always DIMMER_COMMAND_2, DGN = 0x1FEDB, instance fixed at 35\nlet out = buildFrame(0x1FEDB, [\n    inst,                  // instance from variable\n    p.group || 0,        // group, if provided\n    p.desiredLevel || 0  // brightness level\n]);\n\nmsg.payload = out;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1020,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "92b94b19bb5de401",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "abc4d3fbbd02a396",
+        "name": "Map State → Switch Style",
+        "func": "let level = msg.payload.level;\n\n// Default OFF state\nlet state = false;   \n\n// Switch ON if level > 0\nif (level > 0) state = true;\n\n// Build update message for ui-switch\nmsg = {\n    payload: state,   // true/false drives the switch toggle\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1020,
+        "wires": [
+            [
+                "c16500ee21dd62f5"
+            ]
+        ]
+    },
+    {
+        "id": "c16500ee21dd62f5",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "abc4d3fbbd02a396",
+        "name": "Bedroom",
+        "label": "Bed",
+        "group": "2f999e9de6dd367b",
+        "order": 12,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "decouple": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "line",
+        "onvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 251 }",
+        "onvalueType": "json",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "orange",
+        "offvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "offvalueType": "json",
+        "officon": "lightbulb",
+        "offcolor": "grey",
+        "x": 920,
+        "y": 1020,
+        "wires": [
+            [
+                "78b4c60ea4b2c448"
+            ]
+        ]
+    },
+    {
+        "id": "1c35d25f02ad4b72",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "52228d2fdeef5c9f",
+        "name": "Map State → Dimming",
+        "func": "let level = msg.payload.level;\nif (level === undefined) return null;\n\n// Convert to percent for text widget\nlet percent = Math.round((level / 200) * 100);\nlet textMsg = { payload: percent + \"%\" };\n\n// Send scaled fadeRate to slider widget\nlet sliderMsg = { payload: percent };\n\nreturn [sliderMsg, textMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1240,
+        "wires": [
+            [
+                "0554f681b9412c91"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e88bfe1fec122146",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "52228d2fdeef5c9f",
+        "name": "Decode Light Status",
+        "func": "let frame = msg.payload;\nlet dgn = (frame.canid >> 8) & 0x3FFFF;\n\n// Only care about DIMMER_COMMAND_2 (0x1FEDB)\nif (dgn !== 0x1FEDA) return null;\n\n// Get the group/subflow variable\nlet inst = env.get(\"INSTANCE\");   // comes from subflow/group environment config\n\nlet instance = frame.data[0];\nif (instance !== inst) return null;  // filter by group variable\n\nlet level = frame.data[2];\nmsg.payload = { level };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1240,
+        "wires": [
+            [
+                "1c35d25f02ad4b72",
+                "6a80307096b16699"
+            ]
+        ]
+    },
+    {
+        "id": "0554f681b9412c91",
+        "type": "ui-slider",
+        "z": "e9027e9f3d51a6a0",
+        "g": "52228d2fdeef5c9f",
+        "group": "2f999e9de6dd367b",
+        "name": "Cargo",
+        "label": "",
+        "tooltip": "",
+        "order": 15,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "false",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 910,
+        "y": 1240,
+        "wires": [
+            [
+                "42b0e471cae98fac"
+            ]
+        ]
+    },
+    {
+        "id": "42b0e471cae98fac",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "52228d2fdeef5c9f",
+        "name": "Format Slider",
+        "func": "// Input: msg.payload = 0–100 (percent brightness)\n// Output: msg.payload = full command object with fadeRate scaled 0–251\n\nlet percent = Number(msg.payload);\n\n// Clamp to valid range\nif (percent < 0) percent = 0;\nif (percent > 100) percent = 100;\n\n// Scale percent (0–100) to desiredLevel (0–251)\nlet desiredLevel = Math.round((percent / 100) * 200);\n\nmsg.payload = {\n    command: \"DIMMER_COMMAND_2\",\n    desiredLevel: desiredLevel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1240,
+        "wires": [
+            [
+                "b6ba7f09227d42e0"
+            ]
+        ]
+    },
+    {
+        "id": "b6ba7f09227d42e0",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "52228d2fdeef5c9f",
+        "name": "Encode to rvc",
+        "func": "// Input: msg.payload = { desiredLevel }\n// Output: msg.payload = { canid, data, ext, rtr, dlc }\n\nlet inst = env.get(\"INSTANCE\");   // gets the group variable\n\nfunction buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,   // Example source address = 1; adjust if needed\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\n\n// Always DIMMER_COMMAND_2, DGN = 0x1FEDB, instance fixed at 35\nlet out = buildFrame(0x1FEDB, [\n    inst,                  // instance from variable\n    p.group || 0,        // group, if provided\n    p.desiredLevel || 0  // brightness level\n]);\n\nmsg.payload = out;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1180,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "6a80307096b16699",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "52228d2fdeef5c9f",
+        "name": "Map State → Switch Style",
+        "func": "let level = msg.payload.level;\n\n// Default OFF state\nlet state = false;   \n\n// Switch ON if level > 0\nif (level > 0) state = true;\n\n// Build update message for ui-switch\nmsg = {\n    payload: state,   // true/false drives the switch toggle\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1180,
+        "wires": [
+            [
+                "d157e0d860904d7d"
+            ]
+        ]
+    },
+    {
+        "id": "d157e0d860904d7d",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "52228d2fdeef5c9f",
+        "name": "Cargo",
+        "label": "Cargo",
+        "group": "2f999e9de6dd367b",
+        "order": 14,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "decouple": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "line",
+        "onvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 251 }",
+        "onvalueType": "json",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "orange",
+        "offvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "offvalueType": "json",
+        "officon": "lightbulb",
+        "offcolor": "grey",
+        "x": 910,
+        "y": 1180,
+        "wires": [
+            [
+                "b6ba7f09227d42e0"
+            ]
+        ]
+    },
+    {
+        "id": "081dbb013b330202",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "842104f0957a257e",
+        "name": "Map State → Dimming",
+        "func": "let level = msg.payload.level;\nif (level === undefined) return null;\n\n// Convert to percent for text widget\nlet percent = Math.round((level / 200) * 100);\nlet textMsg = { payload: percent + \"%\" };\n\n// Send scaled fadeRate to slider widget\nlet sliderMsg = { payload: percent };\n\nreturn [sliderMsg, textMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1440,
+        "wires": [
+            [
+                "df88e9119126f906"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b882ff1a67329c38",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "842104f0957a257e",
+        "name": "Decode Light Status",
+        "func": "let frame = msg.payload;\nlet dgn = (frame.canid >> 8) & 0x3FFFF;\n\n// Only care about DIMMER_COMMAND_2 (0x1FEDB)\nif (dgn !== 0x1FEDA) return null;\n\n// Get the group/subflow variable\nlet inst = env.get(\"INSTANCE\");   // comes from subflow/group environment config\n\nlet instance = frame.data[0];\nif (instance !== inst) return null;  // filter by group variable\n\nlet level = frame.data[2];\nmsg.payload = { level };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1440,
+        "wires": [
+            [
+                "081dbb013b330202",
+                "6453e9d978bb2ce6"
+            ]
+        ]
+    },
+    {
+        "id": "df88e9119126f906",
+        "type": "ui-slider",
+        "z": "e9027e9f3d51a6a0",
+        "g": "842104f0957a257e",
+        "group": "2f999e9de6dd367b",
+        "name": "Step",
+        "label": "",
+        "tooltip": "",
+        "order": 20,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "false",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 910,
+        "y": 1440,
+        "wires": [
+            [
+                "d5ab3ed1ec52985c"
+            ]
+        ]
+    },
+    {
+        "id": "d5ab3ed1ec52985c",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "842104f0957a257e",
+        "name": "Format Slider",
+        "func": "// Input: msg.payload = 0–100 (percent brightness)\n// Output: msg.payload = full command object with fadeRate scaled 0–251\n\nlet percent = Number(msg.payload);\n\n// Clamp to valid range\nif (percent < 0) percent = 0;\nif (percent > 100) percent = 100;\n\n// Scale percent (0–100) to desiredLevel (0–251)\nlet desiredLevel = Math.round((percent / 100) * 200);\n\nmsg.payload = {\n    command: \"DIMMER_COMMAND_2\",\n    desiredLevel: desiredLevel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1440,
+        "wires": [
+            [
+                "0187415f5d1297af"
+            ]
+        ]
+    },
+    {
+        "id": "0187415f5d1297af",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "842104f0957a257e",
+        "name": "Encode to rvc",
+        "func": "// Input: msg.payload = { desiredLevel }\n// Output: msg.payload = { canid, data, ext, rtr, dlc }\n\nlet inst = env.get(\"INSTANCE\");   // gets the group variable\n\nfunction buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,   // Example source address = 1; adjust if needed\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\n\n// Always DIMMER_COMMAND_2, DGN = 0x1FEDB, instance fixed at 35\nlet out = buildFrame(0x1FEDB, [\n    inst,                  // instance from variable\n    p.group || 0,        // group, if provided\n    p.desiredLevel || 0  // brightness level\n]);\n\nmsg.payload = out;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1380,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "6453e9d978bb2ce6",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "842104f0957a257e",
+        "name": "Map State → Switch Style",
+        "func": "let level = msg.payload.level;\n\n// Default OFF state\nlet state = false;   \n\n// Switch ON if level > 0\nif (level > 0) state = true;\n\n// Build update message for ui-switch\nmsg = {\n    payload: state,   // true/false drives the switch toggle\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1380,
+        "wires": [
+            [
+                "b29b428243066b39"
+            ]
+        ]
+    },
+    {
+        "id": "b29b428243066b39",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "842104f0957a257e",
+        "name": "Step",
+        "label": "Step",
+        "group": "2f999e9de6dd367b",
+        "order": 19,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "decouple": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "line",
+        "onvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 251 }",
+        "onvalueType": "json",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "orange",
+        "offvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "offvalueType": "json",
+        "officon": "lightbulb",
+        "offcolor": "grey",
+        "x": 910,
+        "y": 1380,
+        "wires": [
+            [
+                "0187415f5d1297af"
+            ]
+        ]
+    },
+    {
+        "id": "c4fafc0538ae755e",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "db298eea20931e65",
+        "name": "Map State → Dimming",
+        "func": "let level = msg.payload.level;\nif (level === undefined) return null;\n\n// Convert to percent for text widget\nlet percent = Math.round((level / 200) * 100);\nlet textMsg = { payload: percent + \"%\" };\n\n// Send scaled fadeRate to slider widget\nlet sliderMsg = { payload: percent };\n\nreturn [sliderMsg, textMsg];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1600,
+        "wires": [
+            [
+                "aaa2ca6cd3a4ba52"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "41c26e1ea891cb4e",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "db298eea20931e65",
+        "name": "Decode Light Status",
+        "func": "let frame = msg.payload;\nlet dgn = (frame.canid >> 8) & 0x3FFFF;\n\n// Only care about DIMMER_COMMAND_2 (0x1FEDB)\nif (dgn !== 0x1FEDA) return null;\n\n// Get the group/subflow variable\nlet inst = env.get(\"INSTANCE\");   // comes from subflow/group environment config\n\nlet instance = frame.data[0];\nif (instance !== inst) return null;  // filter by group variable\n\nlet level = frame.data[2];\nmsg.payload = { level };\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 1600,
+        "wires": [
+            [
+                "c4fafc0538ae755e",
+                "c40cc5763e8b6309"
+            ]
+        ]
+    },
+    {
+        "id": "aaa2ca6cd3a4ba52",
+        "type": "ui-slider",
+        "z": "e9027e9f3d51a6a0",
+        "g": "db298eea20931e65",
+        "group": "2f999e9de6dd367b",
+        "name": "Awning",
+        "label": "",
+        "tooltip": "",
+        "order": 22,
+        "width": "2",
+        "height": "1",
+        "passthru": false,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "true",
+        "showTicks": "false",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 920,
+        "y": 1600,
+        "wires": [
+            [
+                "9bdd7fe258a98a0a"
+            ]
+        ]
+    },
+    {
+        "id": "9bdd7fe258a98a0a",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "db298eea20931e65",
+        "name": "Format Slider",
+        "func": "// Input: msg.payload = 0–100 (percent brightness)\n// Output: msg.payload = full command object with fadeRate scaled 0–251\n\nlet percent = Number(msg.payload);\n\n// Clamp to valid range\nif (percent < 0) percent = 0;\nif (percent > 100) percent = 100;\n\n// Scale percent (0–100) to desiredLevel (0–251)\nlet desiredLevel = Math.round((percent / 100) * 200);\n\nmsg.payload = {\n    command: \"DIMMER_COMMAND_2\",\n    desiredLevel: desiredLevel\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1600,
+        "wires": [
+            [
+                "e315a5fababdb6ef"
+            ]
+        ]
+    },
+    {
+        "id": "e315a5fababdb6ef",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "db298eea20931e65",
+        "name": "Encode to rvc",
+        "func": "// Input: msg.payload = { desiredLevel }\n// Output: msg.payload = { canid, data, ext, rtr, dlc }\n\nlet inst = env.get(\"INSTANCE\");   // gets the group variable\n\nfunction buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,   // Example source address = 1; adjust if needed\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\n\n// Always DIMMER_COMMAND_2, DGN = 0x1FEDB, instance fixed at 35\nlet out = buildFrame(0x1FEDB, [\n    inst,                  // instance from variable\n    p.group || 0,        // group, if provided\n    p.desiredLevel || 0  // brightness level\n]);\n\nmsg.payload = out;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 1540,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "c40cc5763e8b6309",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "db298eea20931e65",
+        "name": "Map State → Switch Style",
+        "func": "let level = msg.payload.level;\n\n// Default OFF state\nlet state = false;   \n\n// Switch ON if level > 0\nif (level > 0) state = true;\n\n// Build update message for ui-switch\nmsg = {\n    payload: state,   // true/false drives the switch toggle\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1540,
+        "wires": [
+            [
+                "92124f31ccc5a61a"
+            ]
+        ]
+    },
+    {
+        "id": "92124f31ccc5a61a",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "db298eea20931e65",
+        "name": "Awning",
+        "label": "Awning",
+        "group": "2f999e9de6dd367b",
+        "order": 21,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "decouple": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "line",
+        "onvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 251 }",
+        "onvalueType": "json",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "orange",
+        "offvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "offvalueType": "json",
+        "officon": "lightbulb",
+        "offcolor": "grey",
+        "x": 920,
+        "y": 1540,
+        "wires": [
+            [
+                "e315a5fababdb6ef"
+            ]
+        ]
+    },
+    {
+        "id": "309ae67d707017e2",
+        "type": "ui-button",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "group": "2f999e9de6dd367b",
+        "name": "All Off - In",
+        "label": "OFF",
+        "order": 1,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "lightbulb",
+        "iconPosition": "left",
+        "payload": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "#e1e1e1",
+        "textColor": "grey",
+        "iconColor": "grey",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 940,
+        "y": 1780,
+        "wires": [
+            [
+                "8e1ff8ed19848082"
+            ]
+        ]
+    },
+    {
+        "id": "ce9f064dbb5d2133",
+        "type": "ui-button",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "group": "2f999e9de6dd367b",
+        "name": "All On - In",
+        "label": "ON",
+        "order": 3,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "lightbulb-on-outline",
+        "iconPosition": "left",
+        "payload": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 251 }",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 940,
+        "y": 1740,
+        "wires": [
+            [
+                "acd8d747c281bd76"
+            ]
+        ]
+    },
+    {
+        "id": "acd8d747c281bd76",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "name": "Encode to rvc",
+        "func": "function buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\nlet instances = [35, 34, 22, 24, 25, 32]; // instances list\n\nfor (let inst of instances) {\n    let frame = buildFrame(0x1FEDB, [\n        inst,\n        p.group || 0,\n        p.desiredLevel || 0\n    ]);\n    node.send({ payload: frame });\n}\n\nreturn null;   // prevent Node-RED from trying to send the original msg\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 1740,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "8e1ff8ed19848082",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "name": "Encode to rvc",
+        "func": "function buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\nlet instances = [35, 34, 22, 24, 25, 32]; //instances list\n\nfor (let inst of instances) {\n    let frame = buildFrame(0x1FEDB, [\n        inst,\n        p.group || 0,\n        p.desiredLevel || 0\n    ]);\n    node.send({ payload: frame });\n}\n\nreturn null;   // prevent Node-RED from trying to send the original msg\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 1780,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "33dcba19499b5b7e",
+        "type": "ui-button",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "group": "2f999e9de6dd367b",
+        "name": "All Off - Out",
+        "label": "OFF",
+        "order": 16,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "lightbulb",
+        "iconPosition": "left",
+        "payload": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "#e1e1e1",
+        "textColor": "grey",
+        "iconColor": "grey",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 950,
+        "y": 1880,
+        "wires": [
+            [
+                "a80270a1b0bca5dc"
+            ]
+        ]
+    },
+    {
+        "id": "63cb4f705af6ebc8",
+        "type": "ui-button",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "group": "2f999e9de6dd367b",
+        "name": "All On - Out",
+        "label": "ON",
+        "order": 18,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "lightbulb-on-outline",
+        "iconPosition": "left",
+        "payload": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 251 }",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "white",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 950,
+        "y": 1840,
+        "wires": [
+            [
+                "833316af5d2cfd80"
+            ]
+        ]
+    },
+    {
+        "id": "833316af5d2cfd80",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "name": "Encode to rvc",
+        "func": "function buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\nlet instances = [21, 23]; //instances list\n\nfor (let inst of instances) {\n    let frame = buildFrame(0x1FEDB, [\n        inst,\n        p.group || 0,\n        p.desiredLevel || 0\n    ]);\n    node.send({ payload: frame });\n}\n\nreturn null;   // prevent Node-RED from trying to send the original msg\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 1840,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "a80270a1b0bca5dc",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "name": "Encode to rvc",
+        "func": "function buildFrame(dgn, data) {\n    return {\n        canid: (dgn << 8) | 0x01,\n        ext: true,\n        rtr: false,\n        dlc: data.length,\n        data: data\n    };\n}\n\nlet p = msg.payload;\nlet instances = [21, 23]; // instances list\n\nfor (let inst of instances) {\n    let frame = buildFrame(0x1FEDB, [\n        inst,\n        p.group || 0,\n        p.desiredLevel || 0\n    ]);\n    node.send({ payload: frame });\n}\n\nreturn null;   // prevent Node-RED from trying to send the original msg\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 1880,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "52cc55c55024e602",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "2004681aec0fceee",
+        "name": "Decode Battery Status",
+        "func": "// Node-RED Function with two outputs:\n// Output 1 -> SOC (%)\n// Output 2 -> Time Remaining (formatted string)\n\nlet frame = msg.payload;\n\n// Extract PGN and Source Address from 29-bit CANID\nlet dgn = (frame.canid >> 8) & 0x3FFFF;   // PGN (18 bits)\nlet sa  = frame.canid & 0xFF;             // Source Address (8 bits)\n\n// Only accept from Lithionics BMS (0x46 = 70 decimal)\nif (sa !== 0x46) return [null, null];\n\n// ---- DC_SOURCE_STATUS_2 (0x1FFFC) ----\nif (dgn === 0x1FFFC) {\n    // SOC at Byte 4\n    let rawSOC = frame.data[4];\n    let soc = rawSOC * 0.5;  // 0.5% per bit\n\n    // Time Remaining at Bytes 5-6 (little endian)\n    let rawTime = frame.data[5] | (frame.data[6] << 8);\n    let minutes = rawTime;\n\n    let days = Math.floor(minutes / (24 * 60));\n    let hours = Math.floor((minutes % (24 * 60)) / 60);\n    let mins = minutes % 60;\n\n    let timeString = `${days} days, ${hours} hrs, ${mins} min`;\n\n    return [\n        { payload: soc }, \n        { payload: timeString }\n    ];\n}\n\n// Ignore all other frames\nreturn [null, null];\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 220,
+        "wires": [
+            [
+                "01f5231b52125625"
+            ],
+            [
+                "c060d8ec41db5c2e"
+            ]
+        ]
+    },
+    {
+        "id": "01f5231b52125625",
+        "type": "ui-gauge",
+        "z": "e9027e9f3d51a6a0",
+        "g": "2004681aec0fceee",
+        "name": "Gauge",
+        "group": "acd45536d2ffb0e8",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "1",
+        "height": "3",
+        "gtype": "gauge-battery",
+        "gstyle": "needle",
+        "title": "",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "25",
+                "color": "#ffbb00",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "50",
+                "color": "#e0d900",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#69df2a",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "85",
+                "color": "#00d146",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 750,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e42651470fc04e5",
+        "type": "ui-text",
+        "z": "e9027e9f3d51a6a0",
+        "g": "2004681aec0fceee",
+        "group": "acd45536d2ffb0e8",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "name": "Time",
+        "label": "Time to go:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "Copperplate,Copperplate Gothic Light,fantasy",
+        "fontSize": "14",
+        "color": "#000000",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 750,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9f4856e98428fefd",
+        "type": "ui-text-input",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "group": "542ff8ccdcd2b2c1",
+        "name": "",
+        "label": "Time",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "topic": "",
+        "topicType": "str",
+        "mode": "time",
+        "tooltip": "Set timer off time",
+        "delay": 300,
+        "passthru": false,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "sendOnClear": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 330,
+        "y": 1780,
+        "wires": [
+            [
+                "aa2302af3da419cc"
+            ]
+        ]
+    },
+    {
+        "id": "aa2302af3da419cc",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Set timer",
+        "func": "// Store selected time into flow context\nlet timeString = msg.payload; // e.g. \"14:30\"\n\n// Force to string\nif (timeString === undefined || timeString === null) {\n    timeString = \"\";\n} else {\n    timeString = String(timeString);\n}\n\nflow.set(\"scheduledTime\", timeString);\n\n// Status indicator\nnode.status({\n    fill: \"green\",\n    shape: \"dot\",\n    text: \"Scheduled: \" + timeString\n});\n\n// Output message with current scheduled time\nreturn {\n    topic: \"ScheduledTime\",\n    payload: timeString\n};\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 1780,
+        "wires": [
+            [
+                "03def6366590a716"
+            ]
+        ]
+    },
+    {
+        "id": "4d7926475434bbfb",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Lights off",
+        "func": "// Get scheduled time\nlet scheduled = flow.get(\"scheduledTime\");\nif (!scheduled) return null;\n\n// Current time (HH:MM)\nlet now = new Date();\nlet current = now.getHours().toString().padStart(2,\"0\") + \":\" +\n              now.getMinutes().toString().padStart(2,\"0\");\n\n// Compare\nif (current === scheduled) {\n    // Build your payload here\n    msg.payload = {\n    \"command\": \"DIMMER_COMMAND_2\",\n    \"desiredLevel\": 0\n}\n    return msg;\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1840,
+        "wires": [
+            [
+                "8e1ff8ed19848082"
+            ]
+        ]
+    },
+    {
+        "id": "205c0222aa6afc37",
+        "type": "inject",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Check time",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 350,
+        "y": 1860,
+        "wires": [
+            [
+                "97063881164fa92e"
+            ]
+        ]
+    },
+    {
+        "id": "b69e0684cefb1876",
+        "type": "ui-button-group",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "group": "acd45536d2ffb0e8",
+        "order": 6,
+        "width": 3,
+        "height": "1",
+        "label": "Inverter",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "1",
+                "valueType": "num",
+                "color": "#d4d4d4"
+            },
+            {
+                "label": "1hr",
+                "icon": "",
+                "value": "timer",
+                "valueType": "str",
+                "color": "#ff6666"
+            },
+            {
+                "label": "On",
+                "icon": "power",
+                "value": "3",
+                "valueType": "num",
+                "color": "#f4bc25"
+            }
+        ],
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 960,
+        "y": 2560,
+        "wires": [
+            [
+                "7456cbbff8aaa5c6",
+                "9348439697d3895f"
+            ]
+        ]
+    },
+    {
+        "id": "2a82d747e49e0434",
+        "type": "inject",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "default",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "02:00",
+        "payloadType": "str",
+        "x": 340,
+        "y": 1820,
+        "wires": [
+            [
+                "aa2302af3da419cc",
+                "9f4856e98428fefd"
+            ]
+        ]
+    },
+    {
+        "id": "d5d49f33157f64ae",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "label": "Inside Lights",
+        "group": "542ff8ccdcd2b2c1",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "line",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check-circle",
+        "oncolor": "black",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "checkbox-blank-circle-outline",
+        "offcolor": "grey",
+        "x": 350,
+        "y": 1940,
+        "wires": [
+            [
+                "5ee09ba094e9a68c"
+            ]
+        ]
+    },
+    {
+        "id": "97063881164fa92e",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "select",
+        "func": "// Reads switch states from flow context (set by ui_switch nodes)\n// Adds master switch (default false) to disable all outputs\n// Passes inject msg to outputs depending on switch logic\n// Shows status with active outputs\n\nlet master = flow.get(\"masterSwitch\");\nif (master === undefined) master = false;  // default to false\n\nlet s1 = flow.get(\"switch1\");\nlet s2 = flow.get(\"switch2\");\nlet s3 = flow.get(\"switch3\");\nlet s4 = flow.get(\"switch4\");\nlet s5 = flow.get(\"switch5\");\nlet s6 = flow.get(\"switch6\");\n\nlet out = [null, null, null, null, null, null];\n\n// If master switch is OFF, block all outputs\nif (master === false) {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"Master OFF\" });\n    return out;\n}\n\n// Otherwise, allow per-switch logic\nif (s1 !== false) out[0] = RED.util.cloneMessage(msg);\nif (s2 !== false) out[1] = RED.util.cloneMessage(msg);\nif (s3 !== false) out[2] = RED.util.cloneMessage(msg);\nif (s4 !== false) out[3] = RED.util.cloneMessage(msg);\nif (s5 !== false) out[4] = RED.util.cloneMessage(msg);\nif (s6 !== false) out[5] = RED.util.cloneMessage(msg);\n\n// Build status text\nlet active = [];\nif (s1 !== false) active.push(\"1\");\nif (s2 !== false) active.push(\"2\");\nif (s3 !== false) active.push(\"3\");\nif (s4 !== false) active.push(\"4\");\nif (s5 !== false) active.push(\"5\");\nif (s6 !== false) active.push(\"6\");\n\nif (active.length > 0) {\n    node.status({ fill: \"green\", shape: \"dot\", text: \"Active: \" + active.join(\", \") });\n} else {\n    node.status({ fill: \"yellow\", shape: \"ring\", text: \"All OFF (Master ON)\" });\n}\n\nreturn out;\n\n",
+        "outputs": 6,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 1860,
+        "wires": [
+            [
+                "4d7926475434bbfb"
+            ],
+            [
+                "891d3df20cd8d423"
+            ],
+            [
+                "544e02bcfb6ca919"
+            ],
+            [
+                "627baca63d345acd"
+            ],
+            [
+                "de1cbb39928336cb"
+            ],
+            [
+                "f21ca0c4dc2068cd"
+            ]
+        ]
+    },
+    {
+        "id": "5ee09ba094e9a68c",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "switch1",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "af6addbec88843a0",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "label": "Outside Lights",
+        "group": "542ff8ccdcd2b2c1",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "line",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check-circle",
+        "oncolor": "black",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "checkbox-blank-circle-outline",
+        "offcolor": "grey",
+        "x": 360,
+        "y": 1980,
+        "wires": [
+            [
+                "9780f72176c0f797"
+            ]
+        ]
+    },
+    {
+        "id": "9780f72176c0f797",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "switch2",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ce7920445d71f8f",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "label": "Water Pump",
+        "group": "542ff8ccdcd2b2c1",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "line",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check-circle",
+        "oncolor": "black",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "checkbox-blank-circle-outline",
+        "offcolor": "grey",
+        "x": 350,
+        "y": 2020,
+        "wires": [
+            [
+                "5a9683e07a0f4784"
+            ]
+        ]
+    },
+    {
+        "id": "5a9683e07a0f4784",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "switch3",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 2020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "86f6d87256810c06",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "label": "Inverter",
+        "group": "542ff8ccdcd2b2c1",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "line",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check-circle",
+        "oncolor": "black",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "checkbox-blank-circle-outline",
+        "offcolor": "grey",
+        "x": 340,
+        "y": 2060,
+        "wires": [
+            [
+                "469e711453f6ba66"
+            ]
+        ]
+    },
+    {
+        "id": "469e711453f6ba66",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "switch4",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 2060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "891d3df20cd8d423",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Lights off",
+        "func": "// Get scheduled time\nlet scheduled = flow.get(\"scheduledTime\");\nif (!scheduled) return null;\n\n// Current time (HH:MM)\nlet now = new Date();\nlet current = now.getHours().toString().padStart(2,\"0\") + \":\" +\n              now.getMinutes().toString().padStart(2,\"0\");\n\n// Compare\nif (current === scheduled) {\n    // Build your payload here\n    msg.payload = {\n    \"command\": \"DIMMER_COMMAND_2\",\n    \"desiredLevel\": 0\n}\n    return msg;\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1880,
+        "wires": [
+            [
+                "a80270a1b0bca5dc"
+            ]
+        ]
+    },
+    {
+        "id": "627baca63d345acd",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Inverter off",
+        "func": "// Get scheduled time\nlet scheduled = flow.get(\"scheduledTime\");\nif (!scheduled) return null;\n\n// Current time (HH:MM)\nlet now = new Date();\nlet current = now.getHours().toString().padStart(2,\"0\") + \":\" +\n              now.getMinutes().toString().padStart(2,\"0\");\n\n// Compare\nif (current === scheduled) {\n    // Set payload to 1\n    msg.payload = 1;\n    return msg;\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1960,
+        "wires": [
+            [
+                "1bbf5b377b549685"
+            ]
+        ]
+    },
+    {
+        "id": "452cc09b72632904",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "masterSwitch",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 1740,
+        "wires": [
+            [
+                "97063881164fa92e"
+            ]
+        ]
+    },
+    {
+        "id": "ba8484f21f038618",
+        "type": "ui-button-group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Enable",
+        "group": "542ff8ccdcd2b2c1",
+        "order": 1,
+        "width": "2",
+        "height": "2",
+        "label": "",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Disable",
+                "icon": "",
+                "value": "false",
+                "valueType": "bool",
+                "color": "#dbdbdb"
+            },
+            {
+                "label": "Enable",
+                "icon": "",
+                "value": "true",
+                "valueType": "bool",
+                "color": "#f37777"
+            }
+        ],
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 340,
+        "y": 1740,
+        "wires": [
+            [
+                "452cc09b72632904",
+                "96d71c58897f46c9"
+            ]
+        ]
+    },
+    {
+        "id": "15ff72457760cf01",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "Timer/Encode to rvc",
+        "func": "// Button Group (no topic) → DIMMER_COMMAND_2 (0x1FEDB) with configurable timer\n// Expected button values: \"on\" | \"off\" | \"timer\"\n// Sends frame [INSTANCE, 0x00, LEVEL] to socketcan-out\n// Node status shows: ON, OFF, and TIMER started\n\nconst DGN        = 0x1FEDB;   // DIMMER_COMMAND_2 (g12)\nconst INSTANCE   = 44;        // set instance to g12 output\nconst DEST_ADDR  = 0x01;      // destination SA\nconst ON_LEVEL   = 251;\nconst OFF_LEVEL  = 0;\nconst TIMER_MIN  = 15;        // Timer length (minutes)\n\n// ---- helpers ----\nfunction buildFrame(dgn, da, data) {\n  return {\n    canid: (dgn << 8) | (da & 0xFF),\n    ext: true,\n    rtr: false,\n    dlc: data.length,\n    data\n  };\n}\n\nfunction sendLevel(level) {\n  const frame = buildFrame(DGN, DEST_ADDR, [INSTANCE, 0x00, level & 0xFF]);\n  node.send({ payload: frame });\n  node.status({\n    fill: level > 0 ? \"green\" : \"grey\",\n    shape: \"dot\",\n    text: level > 0 ? \"ON (251)\" : \"OFF (0)\"\n  });\n}\n\nconst turnOn  = () => sendLevel(ON_LEVEL);\nconst turnOff = () => sendLevel(OFF_LEVEL);\n\n// ---- timer management (auto-OFF after TIMER_MIN) ----\nfunction cancelTimer() {\n  const t = context.get(\"activeTimer\");\n  if (t) clearTimeout(t);\n  context.set(\"activeTimer\", null);\n  context.set(\"timerEndsAt\", null);\n}\n\nfunction startTimer(minutes) {\n  cancelTimer();\n  const ms = Math.max(1, minutes) * 60 * 1000;\n  const endsAt = Date.now() + ms;\n  context.set(\"timerEndsAt\", endsAt);\n\n  // Status: TIMER started\n  node.status({\n    fill: \"blue\",\n    shape: \"ring\",\n    text: `TIMER started (${minutes}m)`\n  });\n\n  const t = setTimeout(() => {\n    // When timer ends -> OFF (status will show OFF from sendLevel)\n    turnOff();\n    cancelTimer();\n    // Optional: add a brief 'Timer ended' note (comment out if not desired)\n    // node.status({ fill: \"grey\", shape: \"ring\", text: \"Timer ended → OFF\" });\n  }, ms);\n\n  context.set(\"activeTimer\", t);\n}\n\n// Extract action from payload with no topic\nfunction getActionFromPayload(val) {\n  // Dashboard 2 often sends { value: \"on\" } (or just \"on\")\n  if (val && typeof val === \"object\") {\n    if (\"value\" in val) val = val.value;\n    else if (\"action\" in val) val = val.action;\n    else if (\"label\" in val) val = val.label;\n    else if (\"text\"  in val) val = val.text;\n  }\n  if (typeof val === \"string\") {\n    const s = val.trim().toLowerCase();\n    if (s === \"on\" || s === \"off\" || s === \"timer\") return s;\n  }\n  if (val === true || val === 1)  return \"on\";\n  if (val === false || val === 0) return \"off\";\n  return null;\n}\n\n// -------- main --------\nconst act = getActionFromPayload(msg.payload);\nif (!act) return null; // ignore anything that isn't our button group\n\nif (act === \"on\")   { cancelTimer(); turnOn();  return null; }\nif (act === \"off\")  { cancelTimer(); turnOff(); return null; }\nif (act === \"timer\") {\n  turnOn();                    // ON status shown here\n  startTimer(TIMER_MIN);       // then override status to \"TIMER started\"\n  return null;\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2260,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "19e1866993e81c47",
+        "type": "ui-button-group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "",
+        "group": "acd45536d2ffb0e8",
+        "order": 8,
+        "width": "3",
+        "height": "1",
+        "label": "Water Pump",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "off",
+                "valueType": "str",
+                "color": "#d4d4d4"
+            },
+            {
+                "label": "15m",
+                "icon": "",
+                "value": "timer",
+                "valueType": "str",
+                "color": "#ff6666"
+            },
+            {
+                "label": "On",
+                "icon": "water-outline",
+                "value": "on",
+                "valueType": "str",
+                "color": "#f4bc25"
+            }
+        ],
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 710,
+        "y": 2260,
+        "wires": [
+            [
+                "15ff72457760cf01",
+                "31478bce970e61fc"
+            ]
+        ]
+    },
+    {
+        "id": "d8258636adb41cec",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "Decode rvc",
+        "func": "// socketcan-in -> this function -> Dashboard 2 Button Group (input)\n// Reflects live ON/OFF state by selecting the matching button.\n// Button Group must have option values: on, off, timer\n\nconst INSTANCE = 44;\nconst DGN_CMD  = 0x1FEDB;  // DIMMER_COMMAND_2 (command)\nconst DGN_STAT = 0x1FEDA;  // DIMMER status\n\n// If your Button Group has a Topic set, put it here. If you left the Topic blank, leave this empty.\nconst WIDGET_TOPIC = \"\";   // or \"\" if your widget topic is blank\n\nlet frame = msg.payload;\nif (!frame || typeof frame.canid !== \"number\" || !Array.isArray(frame.data)) return null;\n\nlet dgn = (frame.canid >>> 8) & 0x3FFFF;\nif (dgn !== DGN_CMD && dgn !== DGN_STAT) return null;\n\n// Instance (byte 0)\nlet instance = frame.data[0] | 0;\nif (instance !== INSTANCE) return null;\n\n// Level at byte 2 (0..251). >0 => ON\nlet level = Number(frame.data[2] ?? 0);\nlet state = (level > 0) ? \"on\" : \"off\";\n\n// RBE: only send when the selection changes\nconst KEY = \"btn_group_state_inst44\";\nlet last = flow.get(KEY);\nif (last === state) return null;\nflow.set(KEY, state);\n\n// Button Group expects payload to equal one of its option values\nmsg.payload = state;  // \"on\" or \"off\"\n\n// If your Button Group has a Topic set, match it; if blank, omit.\nif (WIDGET_TOPIC) msg.topic = WIDGET_TOPIC;\n\n// (Optional) extra info for debugging\nmsg.status = {\n  dgn_hex: \"0x\" + dgn.toString(16).toUpperCase(),\n  instance,\n  level,\n  state,\n  ts: new Date().toISOString()\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 2260,
+        "wires": [
+            [
+                "19e1866993e81c47"
+            ]
+        ]
+    },
+    {
+        "id": "706cb8ae4758ff97",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "36ada8f29ad9a1f6",
+        "name": "Bunk",
+        "label": "Bunk",
+        "group": "2f999e9de6dd367b",
+        "order": 10,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "decouple": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left-swapped",
+        "clickableArea": "line",
+        "onvalue": "{\"command\":\"DIMMER_COMMAND_2\",\"desiredLevel\":251}",
+        "onvalueType": "json",
+        "onicon": "lightbulb-on-outline",
+        "oncolor": "orange",
+        "offvalue": "{     \"command\": \"DIMMER_COMMAND_2\",     \"desiredLevel\": 0 }",
+        "offvalueType": "json",
+        "officon": "lightbulb",
+        "offcolor": "grey",
+        "x": 910,
+        "y": 540,
+        "wires": [
+            [
+                "a615b64f4efcd83d"
+            ]
+        ]
+    },
+    {
+        "id": "4140be9cef9922f2",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "name": "filter",
+        "func": "// Only pass through messages with PGNs you care about\nlet dgn = (msg.payload.canid >> 8) & 0x3FFFF;\nconst allowed = [0x1FEDA, 0x1FEDB, 0x1FFB3, 0x1FFFC];\nif (!allowed.includes(dgn)) return null;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 70,
+        "y": 1100,
+        "wires": [
+            [
+                "d97d313185bc0f61",
+                "52cc55c55024e602",
+                "e74d988cc4b90cdb",
+                "3ff2b20ada4b24dc",
+                "c9b4e5836ab0131b",
+                "6c4efa88ba67f2db",
+                "e88bfe1fec122146",
+                "b882ff1a67329c38",
+                "41c26e1ea891cb4e",
+                "d8258636adb41cec",
+                "d688895ec1b46b44",
+                "03f09f5313cd2ad9"
+            ]
+        ]
+    },
+    {
+        "id": "c060d8ec41db5c2e",
+        "type": "delay",
+        "z": "e9027e9f3d51a6a0",
+        "g": "2004681aec0fceee",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 240,
+        "wires": [
+            [
+                "8e42651470fc04e5"
+            ]
+        ]
+    },
+    {
+        "id": "b55909e4a59ad607",
+        "type": "ui-gauge",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "group": "8301c5cc0687455f",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "2",
+        "height": "3",
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "CPU Load",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "",
+        "icon": "",
+        "prefix": "",
+        "suffix": "%",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "40",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "55",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 890,
+        "y": 3100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3003a763dd41bb26",
+        "type": "debug",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Sniffer",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 70,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "1a62b52c6cc21287",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "name": "filter",
+        "func": "// Only pass through messages with PGNs you care about\nlet dgn = (msg.payload.canid >> 8) & 0x3FFFF;\nconst allowed = [0x1FEDB]; // default DGN for G12. set DGN's to sniff. Comma sep.\nif (!allowed.includes(dgn)) return null;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 70,
+        "y": 940,
+        "wires": [
+            [
+                "3003a763dd41bb26"
+            ]
+        ]
+    },
+    {
+        "id": "c02f2156085e53eb",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "d": true,
+        "g": "a8ba8a12146ec056",
+        "name": "Encode to G12",
+        "func": "// Generic function to send on/off to G12\n// Send DIMMER_COMMAND_2 (0x1FEDB)\n// Use true/false boolean input\n\nconst DGN       = 0x1FEDB; // DGN for G12\nconst INSTANCE  = 15;      // set to G12 Output\nconst DEST_ADDR = 0x01;    // adjust if you need a specific target SA\n\nfunction buildFrame(dgn, da, data) {\n  return {\n    canid: (dgn << 8) | (da & 0xFF),\n    ext: true,\n    rtr: false,\n    dlc: data.length,\n    data\n  };\n}\n\n// Normalize incoming payload to a 0..251 \"desired level\"\nfunction toLevel(input) {\n  let v = input;\n\n  if (v && typeof v === \"object\") {\n    if (\"desiredLevel\" in v) v = v.desiredLevel;\n    else if (\"level\" in v)   v = v.level;\n    else if (\"on\" in v)      return v.on ? 251 : 0;\n  }\n\n  if (typeof v === \"string\") {\n    const s = v.trim().toLowerCase();\n    if (s === \"on\" || s === \"true\")  return 251;\n    if (s === \"off\"|| s === \"false\") return 0;\n    const n = Number(s);\n    if (!Number.isNaN(n)) v = n;\n  }\n\n  if (typeof v === \"boolean\") return v ? 251 : 0;\n  if (typeof v !== \"number\" || Number.isNaN(v)) return 0;\n\n  // Treat 0..1 as fraction, 0..100 as percent, otherwise raw 0..251\n  if (v > 0 && v <= 1)   return Math.max(0, Math.min(251, Math.round(v * 251)));\n  if (v >= 0 && v <= 100) return Math.max(0, Math.min(251, Math.round(v * 2.51)));\n  return Math.max(0, Math.min(251, Math.round(v)));\n}\n\nlet group = 0;\nif (msg.payload && typeof msg.payload === \"object\" && \"group\" in msg.payload) {\n  const g = Number(msg.payload.group);\n  if (!Number.isNaN(g)) group = g & 0xFF;\n}\n\nconst level = toLevel(msg.payload);\n\n// Build and send frame: [instance, group, level]\nconst frame = buildFrame(DGN, DEST_ADDR, [INSTANCE, group, level]);\n\nreturn { payload: frame };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 3200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "243d5c3e11398dfc",
+        "type": "ui-button-group",
+        "z": "e9027e9f3d51a6a0",
+        "d": true,
+        "g": "a8ba8a12146ec056",
+        "name": "",
+        "group": "acd45536d2ffb0e8",
+        "order": 9,
+        "width": "0",
+        "height": "0",
+        "label": "G12 Switch",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "false",
+                "valueType": "bool",
+                "color": "#d4d4d4"
+            },
+            {
+                "label": "On",
+                "icon": "",
+                "value": "true",
+                "valueType": "bool",
+                "color": "#f4bc25"
+            }
+        ],
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 750,
+        "y": 3200,
+        "wires": [
+            [
+                "c02f2156085e53eb"
+            ]
+        ]
+    },
+    {
+        "id": "7b4c8b9f45055a16",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "Timer/Encode to G12",
+        "func": "// Button Group (no topic) → DIMMER_COMMAND_2 (0x1FEDB) with configurable timer\n// Expected button values: \"on\" | \"off\" | \"timer\"\n// Sends frame [INSTANCE, 0x00, LEVEL] to socketcan-out\n// Node status shows: ON, OFF, and TIMER started\n\nconst DGN        = 0x1FEDB;   // DIMMER_COMMAND_2 (g12)\nconst INSTANCE   = 17;        // set instance to g12 output\nconst DEST_ADDR  = 0x01;      // destination SA\nconst ON_LEVEL   = 251;\nconst OFF_LEVEL  = 0;\nconst TIMER_MIN  = 60;        // Timer length (minutes)\n\n// ---- helpers ----\nfunction buildFrame(dgn, da, data) {\n  return {\n    canid: (dgn << 8) | (da & 0xFF),\n    ext: true,\n    rtr: false,\n    dlc: data.length,\n    data\n  };\n}\n\nfunction sendLevel(level) {\n  const frame = buildFrame(DGN, DEST_ADDR, [INSTANCE, 0x00, level & 0xFF]);\n  node.send({ payload: frame });\n  node.status({\n    fill: level > 0 ? \"green\" : \"grey\",\n    shape: \"dot\",\n    text: level > 0 ? \"ON (251)\" : \"OFF (0)\"\n  });\n}\n\nconst turnOn  = () => sendLevel(ON_LEVEL);\nconst turnOff = () => sendLevel(OFF_LEVEL);\n\n// ---- timer management (auto-OFF after TIMER_MIN) ----\nfunction cancelTimer() {\n  const t = context.get(\"activeTimer\");\n  if (t) clearTimeout(t);\n  context.set(\"activeTimer\", null);\n  context.set(\"timerEndsAt\", null);\n}\n\nfunction startTimer(minutes) {\n  cancelTimer();\n  const ms = Math.max(1, minutes) * 60 * 1000;\n  const endsAt = Date.now() + ms;\n  context.set(\"timerEndsAt\", endsAt);\n\n  // Status: TIMER started\n  node.status({\n    fill: \"blue\",\n    shape: \"ring\",\n    text: `TIMER started (${minutes}m)`\n  });\n\n  const t = setTimeout(() => {\n    // When timer ends -> OFF (status will show OFF from sendLevel)\n    turnOff();\n    cancelTimer();\n    // Optional: add a brief 'Timer ended' note (comment out if not desired)\n    // node.status({ fill: \"grey\", shape: \"ring\", text: \"Timer ended → OFF\" });\n  }, ms);\n\n  context.set(\"activeTimer\", t);\n}\n\n// Extract action from payload with no topic\nfunction getActionFromPayload(val) {\n  // Dashboard 2 often sends { value: \"on\" } (or just \"on\")\n  if (val && typeof val === \"object\") {\n    if (\"value\" in val) val = val.value;\n    else if (\"action\" in val) val = val.action;\n    else if (\"label\" in val) val = val.label;\n    else if (\"text\"  in val) val = val.text;\n  }\n  if (typeof val === \"string\") {\n    const s = val.trim().toLowerCase();\n    if (s === \"on\" || s === \"off\" || s === \"timer\") return s;\n  }\n  if (val === true || val === 1)  return \"on\";\n  if (val === false || val === 0) return \"off\";\n  return null;\n}\n\n// -------- main --------\nconst act = getActionFromPayload(msg.payload);\nif (!act) return null; // ignore anything that isn't our button group\n\nif (act === \"on\")   { cancelTimer(); turnOn();  return null; }\nif (act === \"off\")  { cancelTimer(); turnOff(); return null; }\nif (act === \"timer\") {\n  turnOn();                    // ON status shown here\n  startTimer(TIMER_MIN);       // then override status to \"TIMER started\"\n  return null;\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 2320,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "b8004f65030b9f89",
+        "type": "ui-button-group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "",
+        "group": "acd45536d2ffb0e8",
+        "order": 7,
+        "width": "",
+        "height": "",
+        "label": "Starlink",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "off",
+                "valueType": "str",
+                "color": "#d4d4d4"
+            },
+            {
+                "label": "1hr",
+                "icon": "",
+                "value": "timer",
+                "valueType": "str",
+                "color": "#ff6666"
+            },
+            {
+                "label": "On",
+                "icon": "satellite-uplink",
+                "value": "on",
+                "valueType": "str",
+                "color": "#f4bc25"
+            }
+        ],
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 720,
+        "y": 2320,
+        "wires": [
+            [
+                "7b4c8b9f45055a16",
+                "812c4fe68e88d43f"
+            ]
+        ]
+    },
+    {
+        "id": "03f09f5313cd2ad9",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "Decode rvc",
+        "func": "// socketcan-in -> this function -> Dashboard 2 Button Group (input)\n// Reflects live ON/OFF state by selecting the matching button.\n// Button Group must have option values: on, off, timer\n\nconst INSTANCE = 17;\nconst DGN_CMD  = 0x1FEDB;  // DIMMER_COMMAND_2 (command)\nconst DGN_STAT = 0x1FEDA;  // DIMMER status\n\n// If your Button Group has a Topic set, put it here. If you left the Topic blank, leave this empty.\nconst WIDGET_TOPIC = \"\";   // or \"\" if your widget topic is blank\n\nlet frame = msg.payload;\nif (!frame || typeof frame.canid !== \"number\" || !Array.isArray(frame.data)) return null;\n\nlet dgn = (frame.canid >>> 8) & 0x3FFFF;\nif (dgn !== DGN_CMD && dgn !== DGN_STAT) return null;\n\n// Instance (byte 0)\nlet instance = frame.data[0] | 0;\nif (instance !== INSTANCE) return null;\n\n// Level at byte 2 (0..251). >0 => ON\nlet level = Number(frame.data[2] ?? 0);\nlet state = (level > 0) ? \"on\" : \"off\";\n\n// RBE: only send when the selection changes\nconst KEY = \"btn_group_state_inst44\";\nlet last = flow.get(KEY);\nif (last === state) return null;\nflow.set(KEY, state);\n\n// Button Group expects payload to equal one of its option values\nmsg.payload = state;  // \"on\" or \"off\"\n\n// If your Button Group has a Topic set, match it; if blank, omit.\nif (WIDGET_TOPIC) msg.topic = WIDGET_TOPIC;\n\n// (Optional) extra info for debugging\nmsg.status = {\n  dgn_hex: \"0x\" + dgn.toString(16).toUpperCase(),\n  instance,\n  level,\n  state,\n  ts: new Date().toISOString()\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 2320,
+        "wires": [
+            [
+                "b8004f65030b9f89"
+            ]
+        ]
+    },
+    {
+        "id": "93f9eea1cbbc5531",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "d": true,
+        "g": "a8ba8a12146ec056",
+        "name": "Decode G12",
+        "func": "// Generic DIMMER status → ui_switch (boolean)\n// Accepts PGNs: 0x1FEDB (command) and 0x1FEDA (status)\n// Set the instance to watch here:\nconst INSTANCE = 15;     // ← change thisto the G12 output. (set to -1 to disable instance filtering)\n\nlet frame = msg.payload;\nif (!frame || typeof frame.canid !== \"number\" || !Array.isArray(frame.data)) return null;\n\nconst dgn = (frame.canid >>> 8) & 0x3FFFF;\nif (dgn !== 0x1FEDB && dgn !== 0x1FEDA) return null;\n\nconst instance = Number(frame.data[0] ?? -1);\nif (INSTANCE >= 0 && instance !== INSTANCE) return null;\n\n// Level at byte 2 (0..251). Any nonzero = ON\nconst level = Number(frame.data[2] ?? 0);\nconst on = level > 0;\n\n// Output to drive a ui_switch\nmsg.payload = on;  // true/false\nmsg.topic = `device/${instance}/status`;\nmsg.meta = {\n  dgn_hex: \"0x\" + dgn.toString(16).toUpperCase(),\n  instance,\n  level,\n  sa: frame.canid & 0xFF\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 3200,
+        "wires": [
+            [
+                "243d5c3e11398dfc"
+            ]
+        ]
+    },
+    {
+        "id": "544e02bcfb6ca919",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Pump off",
+        "func": "// flow.set(\"scheduledTime\", \"07:30\") somewhere else (HH:MM)\n\nlet scheduled = flow.get(\"scheduledTime\"); // \"HH:MM\"\nif (!scheduled) return null;\n\nlet now = new Date();\nlet current = now.toTimeString().slice(0,5); // \"HH:MM\"\nlet today = now.toISOString().slice(0,10);   // \"YYYY-MM-DD\"\n\nif (current === scheduled) {\n  const lastDay = context.get(\"lastFiredDate\");\n  if (lastDay !== today) {\n    context.set(\"lastFiredDate\", today);\n    msg.payload = \"off\"; //... set your payload ...\n    return msg;\n  }\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1920,
+        "wires": [
+            [
+                "15ff72457760cf01"
+            ]
+        ]
+    },
+    {
+        "id": "a4f2fe33cb90a0b7",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "label": "Starlink",
+        "group": "542ff8ccdcd2b2c1",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "line",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check-circle",
+        "oncolor": "black",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "checkbox-blank-circle-outline",
+        "offcolor": "grey",
+        "x": 340,
+        "y": 2100,
+        "wires": [
+            [
+                "ff67c55260503dc7"
+            ]
+        ]
+    },
+    {
+        "id": "ff67c55260503dc7",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "switch5",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 2100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d8be6eb9d6ede44",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "Encode to G12",
+        "func": "// Function node with 2 outputs:\n//  - Output 1: socketcan-out (DIMMER_COMMAND_2: 0x1FEDB)\n//  - Output 2: dashboard-2 switch group (True/False options)\n// Behavior:\n//   input true  -> pulse Instance 3 for 1s, select TRUE option in the group\n//   input false -> pulse Instance 4 for 1s, select FALSE option in the group\n// After pulse finishes, the switch group is \"blanked\" (no selection).\n\n// ---------- CONFIG ----------\nconst DGN        = 0x1FEDB;\nconst DEST_ADDR  = 0x01;   // adjust target SA if needed\nconst GROUP      = 0x00;\nconst TRUE_INST  = 3;\nconst FALSE_INST = 4;\nconst ON_LEVEL   = 200;    // 251 if you want full on\nconst OFF_LEVEL  = 0;\nconst PULSE_MS   = 1000;   // 1 second\n\n// Dashboard 2 switch-group value tokens (MUST match your widget's option values)\nconst TRUE_OPTION_VALUE  = \"true\";   // e.g. \"true\" or true\nconst FALSE_OPTION_VALUE = \"false\";  // e.g. \"false\" or false\n\n// Switch-group message shape: most D2 widgets accept {value: ...}\nconst SWITCH_MSG_SHAPE = \"value\"; // \"value\" → send {value: ...}; \"payload\" → send raw\n\nconst SWITCH_TOPIC = \"pulseSwitchGroup\"; // optional: set the same topic on your D2 widget\nconst BLANK_DELAY_MS = 80;  // delay before sending blank after OFF\n// ---------------------------------------\n\nfunction buildFrame(dgn, da, data) {\n  return { canid: (dgn << 8) | (da & 0xFF), ext: true, rtr: false, dlc: data.length, data };\n}\n\n// Normalize incoming value to strict boolean\nfunction toBool(input) {\n  let v = input;\n  if (v && typeof v === \"object\" && \"value\" in v) v = v.value;\n  if (typeof v === \"string\") {\n    const s = v.trim().toLowerCase();\n    if (s === \"true\" || s === \"on\"  || s === \"1\") return true;\n    if (s === \"false\"|| s === \"off\" || s === \"0\") return false;\n  }\n  if (v === true || v === 1) return true;\n  if (v === false || v === 0) return false;\n  return null; // unknown\n}\n\nfunction sendGroup(valueToken) {\n  if (SWITCH_MSG_SHAPE === \"value\") {\n    node.send([ null, { topic: SWITCH_TOPIC, payload: { value: valueToken } } ]);\n  } else {\n    node.send([ null, { topic: SWITCH_TOPIC, payload: valueToken } ]);\n  }\n}\n\nfunction blankGroup() {\n  if (SWITCH_MSG_SHAPE === \"value\") {\n    node.send([ null, { topic: SWITCH_TOPIC, payload: { value: null } } ]);\n  } else {\n    node.send([ null, { topic: SWITCH_TOPIC, payload: null } ]);\n  }\n}\n\nconst b = toBool(msg.payload);\nif (b === null) return null;  // ignore unknown inputs\n\n// Choose instance + switch-group token\nconst inst = b ? TRUE_INST : FALSE_INST;\nconst token = b ? TRUE_OPTION_VALUE : FALSE_OPTION_VALUE;\n\n// Cancel any pending timers for this instance\nconst keyOff   = \"timer_off_\"   + inst;\nconst keyBlank = \"timer_blank_\" + inst;\nconst tOff   = context.get(keyOff);\nconst tBlank = context.get(keyBlank);\nif (tOff)   clearTimeout(tOff);\nif (tBlank) clearTimeout(tBlank);\n\n// --- Send ON on CAN + set group to selected option ---\nnode.send([ { payload: buildFrame(DGN, DEST_ADDR, [inst, GROUP, ON_LEVEL]) }, null ]);\nsendGroup(token);\n\n// --- Schedule OFF and then blank the group ---\nconst offTimer = setTimeout(() => {\n  node.send([ { payload: buildFrame(DGN, DEST_ADDR, [inst, GROUP, OFF_LEVEL]) }, null ]);\n\n  const blankTimer = setTimeout(() => {\n    blankGroup();                 // clears selection in the switch group\n    context.set(keyBlank, null);\n  }, BLANK_DELAY_MS);\n\n  context.set(keyBlank, blankTimer);\n  context.set(keyOff, null);\n}, PULSE_MS);\n\ncontext.set(keyOff, offTimer);\n\nreturn null;\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 2440,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ],
+            [
+                "b0551e3e2f144427"
+            ]
+        ]
+    },
+    {
+        "id": "b0551e3e2f144427",
+        "type": "ui-button-group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "Awning",
+        "group": "acd45536d2ffb0e8",
+        "order": 13,
+        "width": "3",
+        "height": "1",
+        "label": "Awning",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": true,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Ret",
+                "icon": "",
+                "value": "false",
+                "valueType": "bool",
+                "color": "#999999"
+            },
+            {
+                "label": "Ext",
+                "icon": "",
+                "value": "true",
+                "valueType": "bool",
+                "color": "#009933"
+            }
+        ],
+        "topic": "topic.pulseSwitch",
+        "topicType": "msg",
+        "x": 720,
+        "y": 2440,
+        "wires": [
+            [
+                "2d8be6eb9d6ede44"
+            ]
+        ]
+    },
+    {
+        "id": "8e94659797afde97",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "switch6",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 2140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "01df0ce2d3585876",
+        "type": "ui-switch",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "",
+        "label": "Awning",
+        "group": "542ff8ccdcd2b2c1",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "line",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "check-circle",
+        "oncolor": "black",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "checkbox-blank-circle-outline",
+        "offcolor": "grey",
+        "x": 340,
+        "y": 2140,
+        "wires": [
+            [
+                "8e94659797afde97"
+            ]
+        ]
+    },
+    {
+        "id": "82bb7a7f59245699",
+        "type": "ui-gauge",
+        "z": "e9027e9f3d51a6a0",
+        "g": "5ded4d2c6ed65249",
+        "name": "Water",
+        "group": "acd45536d2ffb0e8",
+        "order": 10,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "1",
+        "height": "3",
+        "gtype": "gauge-tank",
+        "gstyle": "needle",
+        "title": "Water",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#dedede",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "15",
+                "color": "#55dbec",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "35",
+                "color": "#7ec5fb",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "70",
+                "color": "#1681b6",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1210,
+        "y": 2020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "174b07f3de5937ef",
+        "type": "ui-gauge",
+        "z": "e9027e9f3d51a6a0",
+        "g": "5ded4d2c6ed65249",
+        "name": "Grey",
+        "group": "acd45536d2ffb0e8",
+        "order": 11,
+        "value": "payload",
+        "valueType": "msg",
+        "width": "1",
+        "height": "3",
+        "gtype": "gauge-tank",
+        "gstyle": "needle",
+        "title": "Grey",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#d1d1d1",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "30",
+                "color": "#b0b0b0",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "60",
+                "color": "#ffb54d",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "100",
+                "color": "#ff0a0a",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "100",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1230,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1656932d9c383167",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "Encode to G12",
+        "func": "// Send DIMMER_COMMAND_2 (0x1FEDB) for instance 40 - matches G12 output 40\n// Use true/false boolean input\n\nconst DGN       = 0x1FEDB; // G12\nconst INSTANCE  = 06;      // G12 Output\nconst DEST_ADDR = 0x01;    // adjust if you need a specific target SA\n\nfunction buildFrame(dgn, da, data) {\n  return {\n    canid: (dgn << 8) | (da & 0xFF),\n    ext: true,\n    rtr: false,\n    dlc: data.length,\n    data\n  };\n}\n\n// Normalize incoming payload to a 0..251 \"desired level\"\nfunction toLevel(input) {\n  let v = input;\n\n  if (v && typeof v === \"object\") {\n    if (\"desiredLevel\" in v) v = v.desiredLevel;\n    else if (\"level\" in v)   v = v.level;\n    else if (\"on\" in v)      return v.on ? 251 : 0;\n  }\n\n  if (typeof v === \"string\") {\n    const s = v.trim().toLowerCase();\n    if (s === \"on\" || s === \"true\")  return 251;\n    if (s === \"off\"|| s === \"false\") return 0;\n    const n = Number(s);\n    if (!Number.isNaN(n)) v = n;\n  }\n\n  if (typeof v === \"boolean\") return v ? 251 : 0;\n  if (typeof v !== \"number\" || Number.isNaN(v)) return 0;\n\n  // Treat 0..1 as fraction, 0..100 as percent, otherwise raw 0..251\n  if (v > 0 && v <= 1)   return Math.max(0, Math.min(251, Math.round(v * 251)));\n  if (v >= 0 && v <= 100) return Math.max(0, Math.min(251, Math.round(v * 2.51)));\n  return Math.max(0, Math.min(251, Math.round(v)));\n}\n\nlet group = 0;\nif (msg.payload && typeof msg.payload === \"object\" && \"group\" in msg.payload) {\n  const g = Number(msg.payload.group);\n  if (!Number.isNaN(g)) group = g & 0xFF;\n}\n\nconst level = toLevel(msg.payload);\n\n// Build and send frame: [instance, group, level]\nconst frame = buildFrame(DGN, DEST_ADDR, [INSTANCE, group, level]);\n\nreturn { payload: frame };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 2380,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "d688895ec1b46b44",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "Decode rvc",
+        "func": "// Generic DIMMER status → ui_switch (boolean)\n// Accepts PGNs: 0x1FEDB (command) and 0x1FEDA (status)\n// Set the instance to watch here:\nconst INSTANCE = 06;     // ← change thisto the G12 output. (set to -1 to disable instance filtering)\n\nlet frame = msg.payload;\nif (!frame || typeof frame.canid !== \"number\" || !Array.isArray(frame.data)) return null;\n\nconst dgn = (frame.canid >>> 8) & 0x3FFFF;\nif (dgn !== 0x1FEDB && dgn !== 0x1FEDA) return null;\n\nconst instance = Number(frame.data[0] ?? -1);\nif (INSTANCE >= 0 && instance !== INSTANCE) return null;\n\n// Level at byte 2 (0..251). Any nonzero = ON\nconst level = Number(frame.data[2] ?? 0);\nconst on = level > 0;\n\n// Output to drive a ui_switch\nmsg.payload = on;  // true/false\nmsg.topic = `device/${instance}/status`;\nmsg.meta = {\n  dgn_hex: \"0x\" + dgn.toString(16).toUpperCase(),\n  instance,\n  level,\n  sa: frame.canid & 0xFF\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 2380,
+        "wires": [
+            [
+                "7ea63524133411cf"
+            ]
+        ]
+    },
+    {
+        "id": "de1cbb39928336cb",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Starlink off",
+        "func": "// flow.set(\"scheduledTime\", \"07:30\") somewhere else (HH:MM)\n\nlet scheduled = flow.get(\"scheduledTime\"); // \"HH:MM\"\nif (!scheduled) return null;\n\nlet now = new Date();\nlet current = now.toTimeString().slice(0,5); // \"HH:MM\"\nlet today = now.toISOString().slice(0,10);   // \"YYYY-MM-DD\"\n\nif (current === scheduled) {\n  const lastDay = context.get(\"lastFiredDate\");\n  if (lastDay !== today) {\n    context.set(\"lastFiredDate\", today);\n    msg.payload = \"off\"; //... set your payload ...\n    return msg;\n  }\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 2000,
+        "wires": [
+            [
+                "7b4c8b9f45055a16"
+            ]
+        ]
+    },
+    {
+        "id": "f21ca0c4dc2068cd",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "e2d965e6798ce00f",
+        "name": "Awning ret",
+        "func": "// flow.set(\"scheduledTime\", \"07:30\") somewhere else (HH:MM)\n\nlet scheduled = flow.get(\"scheduledTime\"); // \"HH:MM\"\nif (!scheduled) return null;\n\nlet now = new Date();\nlet current = now.toTimeString().slice(0,5); // \"HH:MM\"\nlet today = now.toISOString().slice(0,10);   // \"YYYY-MM-DD\"\n\nif (current === scheduled) {\n  const lastDay = context.get(\"lastFiredDate\");\n  if (lastDay !== today) {\n    context.set(\"lastFiredDate\", today);\n    msg.payload = \"off\"; //... set your payload ...\n    return msg;\n  }\n}\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 2040,
+        "wires": [
+            [
+                "2d8be6eb9d6ede44"
+            ]
+        ]
+    },
+    {
+        "id": "ca1b1923fca8307c",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Set time",
+        "func": "// Inject (timestamp) -> this function -> socketcan-out\n// Sends RV-C SET_DATE_TIME_COMMAND with *current local system time*.\n\n// RV-C command\nconst DGN       = 0x1FFFE; // SET_DATE_TIME_COMMAND\nconst DEST_ADDR = 0xFF;    // broadcast (change to a specific SA if needed)\n\n// Build a 29-bit extended CAN frame\nfunction buildFrame(dgn, da, data) {\n  return {\n    canid: (dgn << 8) | (da & 0xFF),\n    ext: true,\n    rtr: false,\n    dlc: data.length,\n    data\n  };\n}\n\n// RV-C DOW: 1=Sunday..7=Saturday (JS: 0..6 with 0=Sun)\nconst rvcDow = (jsDow) => (jsDow === 0 ? 1 : jsDow + 1);\n\n// Example TZ code mapping for US Pacific: 7=PDT, 8=PST.\n// Adjust this function for your locale if your receivers expect a specific enum.\nfunction pacificTzCode(date) {\n  const y = date.getFullYear();\n  const jan = new Date(y, 0, 1).getTimezoneOffset();\n  const jul = new Date(y, 6, 1).getTimezoneOffset();\n  const std = Math.max(jan, jul);\n  const isDst = date.getTimezoneOffset() < std;\n  return isDst ? 7 : 8;\n}\n\n// --- Use the current local system time ---\nconst dt = new Date(); // local time\n\nconst yearByte   = Math.max(0, Math.min(255, dt.getFullYear() - 2000)); // 2000..2255\nconst monthByte  = dt.getMonth() + 1;      // 1..12\nconst dayByte    = dt.getDate();           // 1..31\nconst dowByte    = rvcDow(dt.getDay());    // 1..7\nconst hourByte   = dt.getHours();          // 0..23 (local)\nconst minuteByte = dt.getMinutes();        // 0..59\nconst secondByte = dt.getSeconds();        // 0..59\nconst tzByte     = pacificTzCode(dt);      // change if your network expects a different code\n\nconst frame = buildFrame(DGN, DEST_ADDR, [\n  yearByte, monthByte, dayByte, dowByte,\n  hourByte, minuteByte, secondByte, tzByte\n]);\n\nnode.status({\n  fill: \"green\",\n  shape: \"dot\",\n  text: `Sent ${monthByte}/${dayByte}/${2000+yearByte} ${hourByte.toString().padStart(2,\"0\")}:${minuteByte.toString().padStart(2,\"0\")}:${secondByte.toString().padStart(2,\"0\")} tz=${tzByte}`\n});\n\nreturn { payload: frame };\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 260,
+        "wires": [
+            [
+                "2c01c3cc2a1a1bb2"
+            ]
+        ]
+    },
+    {
+        "id": "58652a30e46da23e",
+        "type": "inject",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "$fromMillis($millis(), \"[Y0001]-[M01]-[D01] [H01]:[m01]:[s01]\")",
+        "payloadType": "jsonata",
+        "x": 970,
+        "y": 260,
+        "wires": [
+            [
+                "ca1b1923fca8307c"
+            ]
+        ]
+    },
+    {
+        "id": "7456cbbff8aaa5c6",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Timer",
+        "func": "// Switch/Button → codes: \"3\" (ON), \"1\" (OFF) with configurable timer\n// Accepts: \"3\" | \"1\" | \"timer\"  (also booleans, or {value:...})\n// Timer: send \"3\" immediately, then \"1\" after TIMER_MIN minutes.\n\nconst TIMER_MIN = 60;      // minutes — change as needed\n\n// Code mapping (strings; change to numbers if your downstream expects numbers)\nconst ON_CODE  = 3;      // ON\nconst OFF_CODE = 1;      // OFF\n\n// ---- helpers ----\nfunction sendCode(code, note) {\n  node.send({ payload: code });\n  node.status({\n    fill: code === ON_CODE ? \"green\" : \"grey\",\n    shape: \"dot\",\n    text: note || (code === ON_CODE ? \"ON → 3\" : \"OFF → 1\")\n  });\n}\n\nfunction cancelTimer() {\n  const t = context.get(\"timerHandle\");\n  if (t) clearTimeout(t);\n  context.set(\"timerHandle\", null);\n  context.set(\"timerEndsAt\", null);\n}\n\nfunction startTimer(minutes) {\n  cancelTimer();\n  const ms = Math.max(1, minutes) * 60 * 1000;\n  context.set(\"timerEndsAt\", Date.now() + ms);\n  const handle = setTimeout(() => {\n    sendCode(OFF_CODE, \"Timer expired → 1\");\n    cancelTimer();\n  }, ms);\n  context.set(\"timerHandle\", handle);\n}\n\n// Normalize incoming payload to \"on\" | \"off\" | \"timer\"\nfunction getAction(val) {\n  if (val && typeof val === \"object\" && \"value\" in val) val = val.value;\n\n  if (typeof val === \"boolean\") return val ? \"on\" : \"off\";\n\n  if (typeof val === \"number\") {\n    if (val === 3) return \"on\";\n    if (val === 1) return \"off\";\n    // No generic numeric fallback (e.g., >0) because 1 is OFF in this scheme.\n    return null;\n  }\n\n  const s = String(val ?? \"\").trim().toLowerCase();\n  if (s === \"3\" || s === \"on\")  return \"on\";\n  if (s === \"1\" || s === \"off\") return \"off\";\n  if (s === \"timer\")            return \"timer\";\n  return null;\n}\n\n// ---- main ----\nconst act = getAction(msg.payload);\nif (!act) return null;\n\nif (act === \"on\")   { cancelTimer(); sendCode(ON_CODE,  \"ON → 3\");  return null; }\nif (act === \"off\")  { cancelTimer(); sendCode(OFF_CODE, \"OFF → 1\"); return null; }\nif (act === \"timer\"){ sendCode(ON_CODE, \"Timer started → 3\"); startTimer(TIMER_MIN); return null; }\n\nreturn null;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 2560,
+        "wires": [
+            [
+                "1bbf5b377b549685"
+            ]
+        ]
+    },
+    {
+        "id": "9f7fc03e8139df3f",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Convert to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string($round(($number(payload) * 9/5) + 32, 0)) & \" °F\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 2940,
+        "wires": [
+            [
+                "9061b03170af0b91"
+            ]
+        ]
+    },
+    {
+        "id": "9061b03170af0b91",
+        "type": "ui-text",
+        "z": "e9027e9f3d51a6a0",
+        "group": "acd45536d2ffb0e8",
+        "order": 14,
+        "width": "1",
+        "height": "1",
+        "name": "",
+        "label": "Outdoor:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1120,
+        "y": 2940,
+        "wires": []
+    },
+    {
+        "id": "fc8f0e32483e1628",
+        "type": "ui-text",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "group": "2f999e9de6dd367b",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "name": "",
+        "label": "- Inside -",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "18",
+        "color": "#404040",
+        "wrapText": false,
+        "className": "",
+        "value": "payloads",
+        "valueType": "msg",
+        "x": 940,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "74a4b1c4db7b6062",
+        "type": "ui-text",
+        "z": "e9027e9f3d51a6a0",
+        "g": "b5acc41bf366f1ab",
+        "group": "2f999e9de6dd367b",
+        "order": 17,
+        "width": "1",
+        "height": "1",
+        "name": "",
+        "label": "- Outside -",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "18",
+        "color": "#404040",
+        "wrapText": false,
+        "className": "",
+        "value": "payloads",
+        "valueType": "msg",
+        "x": 1110,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "a26b04ce030f4c2a",
+        "type": "ui-text",
+        "z": "e9027e9f3d51a6a0",
+        "group": "acd45536d2ffb0e8",
+        "order": 2,
+        "width": "2",
+        "height": "1",
+        "name": "Solar",
+        "label": "Solar:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1130,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "de8334bcb3447d01",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "name": "format",
+        "func": "// Combine PV Power and Yield Today into one string for a Text widget.\n// Topics expected:\nconst TOPIC_PV    = \"SmartSolar Charger MPPT 150/35 - PV Power (W)\";\nconst TOPIC_YIELD = \"SmartSolar Charger MPPT 150/35 - Yield today (kWh)\";\n\n// Two NBSPs + \"|\" + two NBSPs (renders reliably)\nconst SEP = \"\\u00A0\\u00A0|\\u00A0\\u00A0\";\n\nfunction toNumber(v) {\n  const n = Number(String(v).replace(/[^0-9.\\-]/g, \"\"));\n  return Number.isFinite(n) ? n : null;\n}\n\n// Persist last-known values\nlet state = flow.get(\"solarState\") || { pvW: null, yieldWText: null };\n\n// Update arriving value\nif (msg.topic === TOPIC_PV) {\n  state.pvW = toNumber(msg.payload);                 // watts (number)\n} else if (msg.topic === TOPIC_YIELD) {\n  const kWh = toNumber(msg.payload);                 // energy today in kWh\n  if (kWh !== null) {\n    const w = Math.round(kWh * 1000);                // per request: kWh * 1000 and append \"W\"\n    state.yieldWText = `${w}Wh`;                      // (use \"Wh\" if you meant watt-hours)\n  } else {\n    state.yieldWText = null;\n  }\n} else {\n  return null; // ignore other topics\n}\nflow.set(\"solarState\", state);\n\n// Build output STRING: \"<pv>W  |  Yield: <yield>\"\nconst pvTxt    = (state.pvW === null)       ? \"—\" : String(Math.round(state.pvW));\nconst yieldTxt = (state.yieldWText == null) ? \"—\" : state.yieldWText;\n\nconst out = `${pvTxt}W${SEP}Yield: ${yieldTxt}`;\nnode.status({ fill: \"blue\", shape: \"dot\", text: out });\n\nmsg.payload = out;  // guaranteed string\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 2680,
+        "wires": [
+            [
+                "a26b04ce030f4c2a"
+            ]
+        ]
+    },
+    {
+        "id": "c31bfc1c413f6190",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "g": "2004681aec0fceee",
+        "name": "format",
+        "func": "// Build a single text string from two sources for a Text widget.\n// Topics expected:\nconst TOPIC_PWR = \"Lithionics Battery v9.0.05 - Battery power (W)\";\nconst TOPIC_VLT = \"Lithionics Battery v9.0.05 - Battery voltage (V)\";\n\n// Two NBSPs + \"|\" + two NBSPs\nconst SEP = \"\\u00A0\\u00A0|\\u00A0\\u00A0\";\n\nfunction toNumber(v) {\n  const n = Number(String(v).replace(/[^0-9.\\-]/g, \"\"));\n  return Number.isFinite(n) ? n : null;\n}\nfunction roundDp(n, dp) {\n  const m = Math.pow(10, dp);\n  return Math.round(n * m) / m;\n}\n\nlet state = flow.get(\"lith_batt_state\") || { powerW: null, voltV: null };\n\nif (msg.topic === TOPIC_PWR) {\n  state.powerW = toNumber(msg.payload);\n} else if (msg.topic === TOPIC_VLT) {\n  state.voltV = toNumber(msg.payload);\n} else {\n  return null;\n}\nflow.set(\"lith_batt_state\", state);\n\nconst powerTxt = (state.powerW == null) ? \"—\" : String(Math.round(state.powerW));\nconst voltTxt  = (state.voltV  == null) ? \"—\" : String(roundDp(state.voltV, 2));\n\nconst out = `${powerTxt}W${SEP}${voltTxt}V`;\nnode.status({ fill: \"blue\", shape: \"dot\", text: out });\n\nmsg.payload = out; // string\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 100,
+        "wires": [
+            [
+                "ce3f17e2274358e2"
+            ]
+        ]
+    },
+    {
+        "id": "ce3f17e2274358e2",
+        "type": "ui-text",
+        "z": "e9027e9f3d51a6a0",
+        "g": "2004681aec0fceee",
+        "group": "acd45536d2ffb0e8",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "name": "Battery",
+        "label": "Battery:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 740,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "5414e893a1d282d8",
+        "type": "ui-text",
+        "z": "e9027e9f3d51a6a0",
+        "group": "acd45536d2ffb0e8",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "name": "Loads",
+        "label": "Loads:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1130,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "25a63ba8eebcaafa",
+        "type": "function",
+        "z": "e9027e9f3d51a6a0",
+        "name": "format",
+        "func": "// Combine Venus DC System and AC power into one string for a Text widget.\n// Topics expected:\nconst TOPIC_DC  = \"Venus system - DC System (W)\";\nconst TOPIC_AC1 = \"Venus system - AC Consumption L1 (W)\";\n\n// Two NBSPs + \"|\" + two NBSPs (prevents collapsing in some widgets)\nconst SEP = \"\\u00A0\\u00A0|\\u00A0\\u00A0\";\n\nfunction toNumber(v) {\n  const n = Number(String(v).replace(/[^0-9.\\-]/g, \"\"));\n  return Number.isFinite(n) ? n : null;\n}\n\n// Persist last-known values\nlet state = flow.get(\"venus_power_state\") || { dcW: null, ac1W: null };\n\n// Update whichever value arrived\nif (msg.topic === TOPIC_DC) {\n  state.dcW = toNumber(msg.payload);         // watts (number)\n} else if (msg.topic === TOPIC_AC1) {\n  state.ac1W = toNumber(msg.payload);        // watts (number)\n} else {\n  return null; // ignore unrelated topics\n}\nflow.set(\"venus_power_state\", state);\n\n// Build output STRING with placeholders if missing\nconst dcTxt  = (state.dcW  == null) ? \"—\" : String(Math.round(state.dcW));\nconst acTxt  = (state.ac1W == null) ? \"—\" : String(Math.round(state.ac1W));\n\nconst out = `DC: ${dcTxt}W${SEP}AC: ${acTxt}W`;\n\nnode.status({ fill: \"blue\", shape: \"dot\", text: out });\nmsg.payload = out;  // guaranteed string\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 2800,
+        "wires": [
+            [
+                "5414e893a1d282d8"
+            ]
+        ]
+    },
+    {
+        "id": "7ea63524133411cf",
+        "type": "ui-button-group",
+        "z": "e9027e9f3d51a6a0",
+        "g": "c2d8037172827e51",
+        "name": "grey heat",
+        "group": "acd45536d2ffb0e8",
+        "order": 12,
+        "width": "3",
+        "height": 1,
+        "label": "Grey Tank Heat",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "false",
+                "valueType": "bool",
+                "color": "#d1d1d1"
+            },
+            {
+                "label": "On",
+                "icon": "heat-wave",
+                "value": "true",
+                "valueType": "bool",
+                "color": "#f7b72b"
+            }
+        ],
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 720,
+        "y": 2380,
+        "wires": [
+            [
+                "1656932d9c383167"
+            ]
+        ]
+    },
+    {
+        "id": "4209860e85257ea5",
+        "type": "ui-text",
+        "z": "e9027e9f3d51a6a0",
+        "group": "acd45536d2ffb0e8",
+        "order": 15,
+        "width": "1",
+        "height": "1",
+        "name": "Indoor Temp",
+        "label": "Indoor",
+        "format": "{{msg.payload}}",
+        "layout": "row-right",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "16",
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "value": "payload",
+        "valueType": "msg",
+        "x": 1110,
+        "y": 2880,
+        "wires": []
+    },
+    {
+        "id": "b38d0c6b5a799e5b",
+        "type": "change",
+        "z": "e9027e9f3d51a6a0",
+        "name": "Convert to F",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string($round(($number(payload) * 9/5) + 32, 0)) & \" °F\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 2880,
+        "wires": [
+            [
+                "4209860e85257ea5"
+            ]
+        ]
+    },
+    {
+        "id": "75834a417067e7b4",
+        "type": "victron-input-battery",
+        "z": "e9027e9f3d51a6a0",
+        "g": "2004681aec0fceee",
+        "service": "com.victronenergy.battery/1",
+        "path": "/Dc/0/Power",
+        "serviceObj": {
+            "service": "com.victronenergy.battery/1",
+            "name": "Lithionics Battery v9.0.05"
+        },
+        "pathObj": {
+            "path": "/Dc/0/Power",
+            "type": "float",
+            "name": "Battery power (W)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "x": 430,
+        "y": 160,
+        "wires": [
+            [
+                "c31bfc1c413f6190"
+            ]
+        ]
+    },
+    {
+        "id": "f30c322124b2d7eb",
+        "type": "victron-input-battery",
+        "z": "e9027e9f3d51a6a0",
+        "g": "2004681aec0fceee",
+        "service": "com.victronenergy.battery/1",
+        "path": "/Dc/0/Voltage",
+        "serviceObj": {
+            "service": "com.victronenergy.battery/1",
+            "name": "Lithionics Battery v9.0.05"
+        },
+        "pathObj": {
+            "path": "/Dc/0/Voltage",
+            "type": "float",
+            "name": "Battery voltage (V)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "3",
+        "x": 430,
+        "y": 100,
+        "wires": [
+            [
+                "c31bfc1c413f6190"
+            ]
+        ]
+    },
+    {
+        "id": "77fc4237d9aa0e76",
+        "type": "victron-input-solarcharger",
+        "z": "e9027e9f3d51a6a0",
+        "service": "com.victronenergy.solarcharger/278",
+        "path": "/Yield/Power",
+        "serviceObj": {
+            "service": "com.victronenergy.solarcharger/278",
+            "name": "SmartSolar Charger MPPT 150/35"
+        },
+        "pathObj": {
+            "path": "/Yield/Power",
+            "type": "float",
+            "name": "PV Power (W)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "0",
+        "x": 690,
+        "y": 2680,
+        "wires": [
+            [
+                "de8334bcb3447d01"
+            ]
+        ]
+    },
+    {
+        "id": "9017777b963b6cf3",
+        "type": "victron-input-solarcharger",
+        "z": "e9027e9f3d51a6a0",
+        "service": "com.victronenergy.solarcharger/278",
+        "path": "/History/Daily/0/Yield",
+        "serviceObj": {
+            "service": "com.victronenergy.solarcharger/278",
+            "name": "SmartSolar Charger MPPT 150/35"
+        },
+        "pathObj": {
+            "path": "/History/Daily/0/Yield",
+            "type": "float",
+            "name": "Yield today (kWh)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "3",
+        "x": 700,
+        "y": 2720,
+        "wires": [
+            [
+                "de8334bcb3447d01"
+            ]
+        ]
+    },
+    {
+        "id": "4a10d5c40f793be4",
+        "type": "victron-input-system",
+        "z": "e9027e9f3d51a6a0",
+        "service": "com.victronenergy.system/0",
+        "path": "/Dc/System/Power",
+        "serviceObj": {
+            "service": "com.victronenergy.system/0",
+            "name": "Venus system"
+        },
+        "pathObj": {
+            "path": "/Dc/System/Power",
+            "type": "float",
+            "name": "DC System (W)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "0",
+        "x": 630,
+        "y": 2780,
+        "wires": [
+            [
+                "25a63ba8eebcaafa"
+            ]
+        ]
+    },
+    {
+        "id": "bac8b9d2d1541262",
+        "type": "victron-input-system",
+        "z": "e9027e9f3d51a6a0",
+        "service": "com.victronenergy.system/0",
+        "path": "/Ac/Consumption/L1/Power",
+        "serviceObj": {
+            "service": "com.victronenergy.system/0",
+            "name": "Venus system"
+        },
+        "pathObj": {
+            "path": "/Ac/Consumption/L1/Power",
+            "type": "float",
+            "name": "AC Consumption L1 (W)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "0",
+        "x": 650,
+        "y": 2820,
+        "wires": [
+            [
+                "25a63ba8eebcaafa"
+            ]
+        ]
+    },
+    {
+        "id": "ac8d1072a6f2b806",
+        "type": "victron-input-tank",
+        "z": "e9027e9f3d51a6a0",
+        "g": "5ded4d2c6ed65249",
+        "service": "com.victronenergy.tank/176",
+        "path": "/Level",
+        "serviceObj": {
+            "service": "com.victronenergy.tank/176",
+            "name": "Tank sensor"
+        },
+        "pathObj": {
+            "path": "/Level",
+            "type": "float",
+            "name": "Tank level (%)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "0",
+        "x": 1000,
+        "y": 2020,
+        "wires": [
+            [
+                "82bb7a7f59245699"
+            ]
+        ]
+    },
+    {
+        "id": "7e328bc03f66b328",
+        "type": "victron-input-tank",
+        "z": "e9027e9f3d51a6a0",
+        "g": "5ded4d2c6ed65249",
+        "service": "com.victronenergy.tank/177",
+        "path": "/Level",
+        "serviceObj": {
+            "service": "com.victronenergy.tank/177",
+            "name": "G12 Panel 3v0 4v0i"
+        },
+        "pathObj": {
+            "path": "/Level",
+            "type": "float",
+            "name": "Tank level (%)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "0",
+        "x": 1020,
+        "y": 2080,
+        "wires": [
+            [
+                "174b07f3de5937ef"
+            ]
+        ]
+    },
+    {
+        "id": "b83209d88ec2b3fe",
+        "type": "victron-input-temperature",
+        "z": "e9027e9f3d51a6a0",
+        "service": "com.victronenergy.temperature/21",
+        "path": "/Temperature",
+        "serviceObj": {
+            "service": "com.victronenergy.temperature/21",
+            "name": "Outdoor"
+        },
+        "pathObj": {
+            "path": "/Temperature",
+            "type": "float",
+            "name": "Temperature (°C)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "1",
+        "x": 610,
+        "y": 2940,
+        "wires": [
+            [
+                "9f7fc03e8139df3f"
+            ]
+        ]
+    },
+    {
+        "id": "d36bf6ced8c0da35",
+        "type": "victron-input-temperature",
+        "z": "e9027e9f3d51a6a0",
+        "service": "com.victronenergy.temperature/20",
+        "path": "/Temperature",
+        "serviceObj": {
+            "service": "com.victronenergy.temperature/20",
+            "name": "Van Interior"
+        },
+        "pathObj": {
+            "path": "/Temperature",
+            "type": "float",
+            "name": "Temperature (°C)"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "roundValues": "1",
+        "x": 620,
+        "y": 2880,
+        "wires": [
+            [
+                "b38d0c6b5a799e5b"
+            ]
+        ]
+    },
+    {
+        "id": "995dcff5bfa5b9b8",
+        "type": "victron-input-vebus",
+        "z": "e9027e9f3d51a6a0",
+        "service": "com.victronenergy.vebus/276",
+        "path": "/Mode",
+        "serviceObj": {
+            "service": "com.victronenergy.vebus/276",
+            "name": "MultiPlus-II 48/3000/35-50 120V"
+        },
+        "pathObj": {
+            "path": "/Mode",
+            "type": "enum",
+            "name": "Switch Position",
+            "enum": {
+                "1": "Charger Only",
+                "2": "Inverter Only",
+                "3": "On",
+                "4": "Off"
+            },
+            "mode": "both"
+        },
+        "name": "",
+        "onlyChanges": true,
+        "x": 680,
+        "y": 2560,
+        "wires": [
+            [
+                "b69e0684cefb1876"
+            ]
+        ]
+    },
+    {
+        "id": "1bbf5b377b549685",
+        "type": "victron-output-vebus",
+        "z": "e9027e9f3d51a6a0",
+        "service": "com.victronenergy.vebus/276",
+        "path": "/Mode",
+        "serviceObj": {
+            "service": "com.victronenergy.vebus/276",
+            "name": "MultiPlus-II 48/3000/35-50 120V"
+        },
+        "pathObj": {
+            "path": "/Mode",
+            "type": "enum",
+            "name": "Switch Position",
+            "enum": {
+                "1": "Charger Only",
+                "2": "Inverter Only",
+                "3": "On",
+                "4": "Off"
+            },
+            "mode": "both"
+        },
+        "name": "",
+        "onlyChanges": false,
+        "x": 690,
+        "y": 2620,
+        "wires": []
+    },
+    {
+        "id": "d4e55f3551af1bc3",
+        "type": "interval",
+        "z": "e9027e9f3d51a6a0",
+        "name": "interval",
+        "interval": "5",
+        "onstart": false,
+        "msg": "ping",
+        "showstatus": true,
+        "unit": "seconds",
+        "statusformat": "YYYY-MM-D HH:mm:ss",
+        "x": 550,
+        "y": 3100,
+        "wires": [
+            [
+                "84a8bc37750708b0"
+            ]
+        ]
+    },
+    {
+        "id": "84a8bc37750708b0",
+        "type": "cpu",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "msgCore": false,
+        "msgOverall": true,
+        "msgArray": false,
+        "msgTemp": false,
+        "x": 710,
+        "y": 3100,
+        "wires": [
+            [
+                "b55909e4a59ad607"
+            ]
+        ]
+    },
+    {
+        "id": "812c4fe68e88d43f",
+        "type": "mqtt out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/starlink/state",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c5de13d667d7ea6",
+        "x": 1380,
+        "y": 2340,
+        "wires": []
+    },
+    {
+        "id": "9348439697d3895f",
+        "type": "mqtt out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/inverter/state",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c5de13d667d7ea6",
+        "x": 1380,
+        "y": 2600,
+        "wires": []
+    },
+    {
+        "id": "96d71c58897f46c9",
+        "type": "mqtt out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/timer/state",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c5de13d667d7ea6",
+        "x": 530,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "03def6366590a716",
+        "type": "mqtt out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/timer/time",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c5de13d667d7ea6",
+        "x": 750,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "ab5b8fbc14062a6a",
+        "type": "mqtt in",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/timer/button",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9c5de13d667d7ea6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 1760,
+        "wires": [
+            [
+                "ba8484f21f038618"
+            ]
+        ]
+    },
+    {
+        "id": "3ca688eb63b73f18",
+        "type": "mqtt in",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/starlink/button",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9c5de13d667d7ea6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 180,
+        "y": 2580,
+        "wires": [
+            [
+                "b8004f65030b9f89"
+            ]
+        ]
+    },
+    {
+        "id": "4b6be93fd60b336e",
+        "type": "mqtt in",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/inverter/button",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9c5de13d667d7ea6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 2680,
+        "wires": [
+            [
+                "1bbf5b377b549685"
+            ]
+        ]
+    },
+    {
+        "id": "31478bce970e61fc",
+        "type": "mqtt out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/water/state",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c5de13d667d7ea6",
+        "x": 1370,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "afd768a1e921acd4",
+        "type": "mqtt in",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/water/button",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9c5de13d667d7ea6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 2520,
+        "wires": [
+            [
+                "19e1866993e81c47"
+            ]
+        ]
+    },
+    {
+        "id": "411823c905c3e46e",
+        "type": "mqtt in",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/timer/set",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "9c5de13d667d7ea6",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 100,
+        "y": 1840,
+        "wires": [
+            [
+                "9f4856e98428fefd"
+            ]
+        ]
+    },
+    {
+        "id": "3fa57e728e1f28f7",
+        "type": "mqtt out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/ac/fan",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c5de13d667d7ea6",
+        "x": 980,
+        "y": 3340,
+        "wires": []
+    },
+    {
+        "id": "f45c84407b3324ae",
+        "type": "inject",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Low",
+        "payloadType": "str",
+        "x": 710,
+        "y": 3340,
+        "wires": [
+            [
+                "3fa57e728e1f28f7"
+            ]
+        ]
+    },
+    {
+        "id": "1be412bc4d756faa",
+        "type": "mqtt out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/ac/temp",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c5de13d667d7ea6",
+        "x": 980,
+        "y": 3420,
+        "wires": []
+    },
+    {
+        "id": "4ed9423b7e7adfc6",
+        "type": "inject",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "67",
+        "payloadType": "str",
+        "x": 710,
+        "y": 3420,
+        "wires": [
+            [
+                "1be412bc4d756faa"
+            ]
+        ]
+    },
+    {
+        "id": "f817cc4c4219454d",
+        "type": "mqtt out",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "topic": "magtag/ac/set",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "9c5de13d667d7ea6",
+        "x": 980,
+        "y": 3500,
+        "wires": []
+    },
+    {
+        "id": "b27c2bb14f486ae8",
+        "type": "inject",
+        "z": "e9027e9f3d51a6a0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "72",
+        "payloadType": "str",
+        "x": 710,
+        "y": 3500,
+        "wires": [
+            [
+                "f817cc4c4219454d"
+            ]
+        ]
+    },
+    {
+        "id": "6321f4cc29f9169d",
+        "type": "socketcan-config",
+        "interface": "can0"
+    },
+    {
+        "id": "2f999e9de6dd367b",
+        "type": "ui-group",
+        "name": "Lights",
+        "page": "0493eaa398069f79",
+        "width": "3",
+        "height": "3",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "acd45536d2ffb0e8",
+        "type": "ui-group",
+        "name": "Power",
+        "page": "0493eaa398069f79",
+        "width": "3",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "542ff8ccdcd2b2c1",
+        "type": "ui-group",
+        "name": "Sleep Timer",
+        "page": "0493eaa398069f79",
+        "width": "2",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8301c5cc0687455f",
+        "type": "ui-group",
+        "name": "CPU Load",
+        "page": "0493eaa398069f79",
+        "width": "2",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "9c5de13d667d7ea6",
+        "type": "mqtt-broker",
+        "name": "mosquitto",
+        "broker": "192.168.1.152",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "5",
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "0493eaa398069f79",
+        "type": "ui-page",
+        "name": "Page 1",
+        "ui": "d3ede36e308c0fa4",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "cc0aada03716a7fe",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "800",
+                "cols": "6"
+            },
+            {
+                "name": "Desktop sm",
+                "px": "1024",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1500",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "d3ede36e308c0fa4",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "cc0aada03716a7fe",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    }
+]
