@@ -1,0 +1,147 @@
+[
+    {
+        "id": "7352d10089acf2b4",
+        "type": "ui-button-group",
+        "z": "724040b572cda7fb",
+        "g": "afee5039782bd7be",
+        "name": "",
+        "group": "e64546ad852da44d",
+        "order": 7,
+        "width": "",
+        "height": "",
+        "label": "Starlink",
+        "className": "",
+        "rounded": true,
+        "useThemeColors": false,
+        "passthru": false,
+        "options": [
+            {
+                "label": "Off",
+                "icon": "",
+                "value": "off",
+                "valueType": "str",
+                "color": "#d4d4d4"
+            },
+            {
+                "label": "1hr",
+                "icon": "",
+                "value": "timer",
+                "valueType": "str",
+                "color": "#ff6666"
+            },
+            {
+                "label": "On",
+                "icon": "satellite-uplink",
+                "value": "on",
+                "valueType": "str",
+                "color": "#f4bc25"
+            }
+        ],
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 940,
+        "y": 2500,
+        "wires": [
+            [
+                "6b1ab8e30a3ca561"
+            ]
+        ]
+    },
+    {
+        "id": "e64546ad852da44d",
+        "type": "ui-group",
+        "name": "Power",
+        "page": "bdca73a137c59734",
+        "width": "3",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "bdca73a137c59734",
+        "type": "ui-page",
+        "name": "Main Page",
+        "ui": "3e342ed429d5ec07",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "80caa19de9aef890",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "800",
+                "cols": "6"
+            },
+            {
+                "name": "Desktop sm",
+                "px": "1024",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1500",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "3e342ed429d5ec07",
+        "type": "ui-base",
+        "name": "Main Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "80caa19de9aef890",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "281bd1158c9a1624",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.28.0"
+        }
+    }
+]
