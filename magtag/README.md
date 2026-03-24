@@ -8,7 +8,7 @@ Connects to a MQTT server hosted on a Victron Cerbo over WiFi.  The Cerbo also u
 1. Update Victron Cerbo with Large OS.  Enable MQTT server and Node RED.
 2. Load ```launchControl-flow.json``` flow onto Node RED server hosted on the Cebo
 3. Edit the ```settings.toml``` file to include your Cerbo SSID and password.
-4. Copy the complete contents of this folder directly to the magtag.
+4. Copy the complete contents of the ```code``` folder directly to the magtag.
 
 ### Additional info
 I eneded up moving this project to the AMOLED dsiplay using ESPHome as found in the root of this repo.  Refreshing the e-ink display was a bit clunky, especially when navigating menus.  Four buttons was a bit limiting for navigation and functions.  If it were just a simple and fairly static display, it would have probably worked better.
