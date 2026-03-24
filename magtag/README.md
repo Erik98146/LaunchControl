@@ -1,5 +1,5 @@
 # Magtag
-This is a previous version of the project created for an Adafruit Magtag e-ink display written in Circuit Python. This is not maintained and is here only for reference.
+This is a previous version of the project created for an Adafruit Magtag e-ink display written in Circuit Python. This is no longer being developed is here only for reference.
 
 ## Features
 Connects to a MQTT server hosted on a Victron Cerbo over WiFi.  The Cerbo also uses a Node RED flow for the RV-C interface (Firefly G12) and automations.  
