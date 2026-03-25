@@ -1,5 +1,10 @@
 # Release Change Log  
 
+## 0.90
+- Finished AC controls
+- Added screen timeout options
+- Updated Node RED flow **(Must use new flow)**
+
 ## 0.86
 - Fixed screen rotation control
 - Added Cerbo IP under MQTT status
