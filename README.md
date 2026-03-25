@@ -93,6 +93,7 @@ See this YouTube video for use:  https://youtu.be/Vuok86__elU
 ## Roadmap
 - Using the built-in gyroscope to build a parking level assist function
 - Create a driving version for mounting to the dashboard (battery, devices, alternator, climate, lights, parking level assist)
+- Enable/disable starlink option
 
 
 
