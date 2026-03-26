@@ -45,7 +45,13 @@ Navigate to the Releases button to the right for the latest files:
 8. Choose Venus OS Large from the VRM web menu and launch Node-Red
 9. Download ```LaunchcControl-flow.json``` file from releases
 10. From the top right Node RED menu, select *import* and import the flow
-11. Press *Deploy*
+11. Install the flowfuse dashboard (for the ui buttons):
+  - Open the menu in the top-right of Node-RED.
+  - Click "Manage Palette".
+  - Switch to the "Install" tab
+  - Search node-red-dashboard
+  - Install the @flowfuse/node-red-dashboard package (not node-red/node-red-dashboard)
+12. Press *Deploy*
 
 Note: **Check the release notes, most updates do not require updating the Node RED flow.**  If you are updating the Node RED flow from a previous version of LaunchControl, be sure to delete the old flow from within Node RED **AFTER** adding the new flow by right clicking on the old flow at the top, selecting *Delete* and then clicking *Deploy*. 
 
