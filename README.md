@@ -57,6 +57,7 @@ Enable Node RED and MQTT. Enable the access point. Install and deploy the Node R
 Note: **Check the release notes, most updates do not require updating the Node RED flow.**  If you are updating the Node RED flow from a previous version of LaunchControl, be sure to delete the old flow from within Node RED **AFTER** adding the new flow by right clicking on the old flow at the top, selecting *Delete* and then clicking *Deploy*. 
 
 ### Waveshare AMOLED Touchscreen (optional)
+Compile and flash the firmware.  Detailed instructions:
 1. Install ESPHome on your computer using the **manual** method: https://esphome.io/guides/installing_esphome/
 2. **Do NOT use the Python install manager**.  **Do NOT use the latest version**, it's not compatible (use 3.13.x): https://www.python.org/downloads/windows/
 3. install Git on your computer: https://git-scm.com/install/windows
