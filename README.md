@@ -66,7 +66,7 @@ Compile and flash the firmware.  Detailed instructions:
 6. Open a command prompt and navigate to the directory with the downloaded files
 7. Send the compile command: ```esphome run launchcontrol.yaml``` (see note below regarding compile errors)
 8. After it compiles, select the option to upload using the COM port USB serial device
-9. Move to the van or within range of the Cerbo wifi. Connect the display to USB power.  1 minute after launch, it will start the setup portal hot spot. Use your phnone and connect to SSID ```LaunchControl-Config``` and select venus-xxxxxx from the list of WiFi networks available. Enter the password you setup previously on the Cerbo and save (this will connect the wifi of the display to the Cerbo and save the settings). The device should launch and become functional in a moment.
+9. Move to the van or within range of the Cerbo wifi. Connect the display to USB power.  1 minute after launch, it will start the setup portal hot spot. Use your phnone and connect to SSID ```LaunchControl-Config```. Then select venus-xxxxxx from the hotsport portal. Enter the password you setup previously on the Cerbo and save (this will connect the wifi of the display to the Cerbo and save the settings). The device should launch and become functional in a moment.
 
 Future reboots happen in just a couple seconds, but it will take about 1 minute afetr a cold start of the van for the Victron Cerbo to power up and begin to send data.
 
