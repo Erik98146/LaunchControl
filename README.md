@@ -46,7 +46,7 @@ Enable Node RED and MQTT. Enable the access point. Install and deploy the Node R
 8. Choose Venus OS Large from the VRM web menu and launch Node-Red
 9. Download ```LaunchcControl-flow.json``` file from releases
 10. From the top right Node RED menu, select *import* and import the flow
-11. Install the flowfuse dashboard (for the ui buttons):
+11. Install the flowfuse dashboard into Node RED (for the ui buttons):
   - Open the menu in the top-right of Node-RED.
   - Click "Manage Palette".
   - Switch to the "Install" tab
