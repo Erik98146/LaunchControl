@@ -35,7 +35,7 @@ Navigate to the Releases button to the right for the latest files:
 - ```van.png``` logo file
 
 ### Cerbo
-Install and deploy the Node RED flow:
+Enable Node RED and MQTT. Enable the access point. Install and deploy the Node RED flow.  Detailed instructions:
 1. Connect the Cerbo to the internet
 2. Update the Cerbo firmware, and choose the "large" image (this will allow for Node RED).  Choose to use the new GUI if you haven't already.
 3. From ```Settings/Integrations``` *enable MQTT access*.
