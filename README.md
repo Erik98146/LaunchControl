@@ -76,7 +76,7 @@ Minor complilation warnings and errors are ok, but if there is a failure you can
   1. Connect to VRM from your device: https://vrm.victronenergy.com
      - Navigate to Venus OS Large
          - Launch the Node-Red Dashboard  
-       Note: if you are receiveing an error about an expired token, refresh the Venus OS Large page and try again.
+       Note: if you are receiving an error about an expired token, refresh the Venus OS Large page and try again.
   
      - Optionally open the *Console* for remote screen access  
 
