@@ -64,7 +64,7 @@ Compile and flash the firmware.  Detailed instructions:
 8. After it compiles, select the option to upload using the COM port USB serial device
 9. Move to the van or within range of the Cerbo wifi. Connect the display to USB power.  1 minute after launch, it will start the setup portal hot spot. Use your phone and connect to SSID ```LaunchControl-Config```. Then select venus-xxxxxx from the hotspot portal. Enter the password you setup previously on the Cerbo and save (this will connect the wifi of the display to the Cerbo and save the settings). The device should launch and become functional in a moment.
 
-Future reboots happen in just a couple seconds, but it will take about 1 minute afetr a cold start of the van for the Victron Cerbo to power up and begin to send data.
+Future reboots happen in just a couple seconds, but it will take about 1 minute after a cold start of the van for the Victron Cerbo to power up and begin to send data.
 
 Minor complilation warnings and errors are ok, but if there is a failure you can try to delete the build componenets and it will automatically download them again next time you compile. navigate to ```.esphome/build``` and delete the entire campervan32 folder and try the compile command again.
 
