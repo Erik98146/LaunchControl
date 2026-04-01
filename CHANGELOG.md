@@ -4,6 +4,7 @@
 - Added lighting screen
 - Updated MQTT topics
 - Minor label and icon fixes
+- Changed default screen rotation: USB down
 - Updated Node RED flow **(Must use new flow)**
 
 ## 0.90
