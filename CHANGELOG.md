@@ -1,5 +1,10 @@
 # Release Change Log  
 
+## dev
+- Added lighting screen
+- Updated MQTT topics
+- Minor label and icon fixes
+
 ## 0.90
 - Finished AC controls
 - Added screen timeout options
