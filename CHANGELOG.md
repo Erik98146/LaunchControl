@@ -1,6 +1,6 @@
 # Release Change Log  
 
-## dev
+## 0.96
 - Added lighting screen
 - Updated MQTT topics
 - Minor label and icon fixes
