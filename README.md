@@ -38,17 +38,17 @@ Navigate to the Releases button to the right for the latest files:
 
 ### Cerbo
 Enable Node RED and MQTT. Enable the access point. Install and deploy the Node RED flow.  Detailed instructions:
-1. Connect the Cerbo to the internet
-2. Update the Cerbo firmware, and choose the "large" image (this will allow for Node RED).  Choose to use the new GUI if you haven't already.
+
+1. Connect the Cerbo to the internet using the Victron touchscreen and navigating the settings pages.
+2. Update the Cerbo firmware, and choose the "large" image (this will allow for Node RED). Choose to use the new GUI if you haven't already.
 3. From ```Settings/Integrations``` *enable MQTT access*.
 4. From ```Settings/Integrations``` *Enable Node RED*.
-5. From ```Settings/Connectivity/WiFi``` enable *Create access point*. Make a password. The list of wifi networks now will include venus-xxxxxxxxxxxxx.  Do not select it, but make a note of it so you can connect your phone or PC (for when you don't have the Cerbo connected to a access point or internet) and for connecting the display later.
+5. From ```Settings/Connectivity/WiFi``` enable Create access point. Make a password. The list of wifi networks now will include venus-xxxxxxxxxxxxx. Do not select it, but make a note of it so you can connect to it later.
 6. Setup your free VRM account for cloud access and remote control and link it to your Cerbo at: https://vrm.victronenergy.com
-7. Connect to your system over VRM via the web browser link in the previous step
+7. Connect to your system over VRM via a web browser link in the previous step
 8. Choose Venus OS Large from the VRM web menu and launch Node-Red
-9. Download ```LaunchcControl-flow.json``` file from releases
-10. From the top right Node RED menu, select *import* and import the flow.  If prompted, install missing modules.
-11. Press *Deploy*
+9. From the top right Node RED menu, select import and import ```LaunchcControl-flow.json``` downloaded from the release. If prompted, install missing modules.
+Press Deploy
 
 Note: **Check the release notes, most updates do not require updating the Node RED flow.**  If you are updating the Node RED flow from a previous version of LaunchControl, be sure to delete the old flow from within Node RED **AFTER** adding the new flow by right clicking on the old flow at the top, selecting *Delete* and then clicking *Deploy*. 
 
@@ -62,7 +62,10 @@ Compile and flash the firmware.  Detailed instructions:
 6. Open a command prompt and navigate to the directory with the downloaded files
 7. Send the compile command: ```esphome run launchcontrol.yaml``` (see note below regarding compile errors)
 8. After it compiles, select the option to upload using the COM port USB serial device
-9. Move to the van or within range of the Cerbo wifi. Connect the display to USB power.  1 minute after launch, it will start the setup portal hot spot. Use your phone and connect to SSID ```LaunchControl-Config```. Then select venus-xxxxxx from the hotspot portal. Enter the password you setup previously on the Cerbo and save (this will connect the wifi of the display to the Cerbo and save the settings). The device should launch and become functional in a moment.
+9. Move to the van or within range of the Cerbo WiFi.
+10. Connect the display to USB power.
+11. One minute after launch, it will start the setup portal hot spot. Use your phone and connect to SSID: LaunchControl-Config.
+12. Select venus-xxxxxx from the hotspot portal. Enter the password you setup previously on the Cerbo and save.
 
 Future reboots happen in just a couple seconds, but it will take about 1 minute after a cold start of the van for the Victron Cerbo to power up and begin to send data.
 
@@ -91,6 +94,9 @@ The new cerbo controls can be found in the top left corner of the Victron touchs
 If there are issues with this, check the settings screen to see if it has wifi and mqtt connectivity. If the Node RED dashboard is working and there is connectivity, the device should be working.
 
 See this YouTube video for use:  https://youtu.be/Vuok86__elU
+
+## Optional Power
+The remote display can be powered with a USB-C cable.  It can also be hardwired with a 5v connection.  A DC-DC buck converter can be used to convert 12v power to 5v.  You could also open the case, clip off the connector and solder wires directly to the circuit board.  I used 6" of wire and a JST connector to make a quick disconnect.  Drill a 3/8" hole for the wires, but measure carefully because the connector is not centered on the display.
 
 ## Limitations
 
