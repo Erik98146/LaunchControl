@@ -1,5 +1,9 @@
 # Release Change Log  
 
+## 0.103
+- Added solar icon charge indicator
+- Added shore power connected indicator
+
 ## 0.96
 - Added lighting screen
 - Updated MQTT topics
