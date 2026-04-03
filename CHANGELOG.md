@@ -1,6 +1,6 @@
 # Release Change Log  
 
-## 0.103
+## 0.107
 - Added solar icon charge indicator
 - Added shore power connected indicator
 
